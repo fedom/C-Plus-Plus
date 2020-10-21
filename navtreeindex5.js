@@ -1,12 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"db/da9/classqueue.html#a26f48801df462ade003b50739196fa4c":[9,0,32,4],
-"db/da9/classqueue.html#a36d47fdbedc199609818385110d9f922":[9,0,32,6],
-"db/da9/classqueue.html#a592c0580551ec0d3b4d43e8198d8a377":[9,0,32,5],
-"db/da9/classqueue.html#ab2019d91e28c06de325fb3076b93a930":[9,0,32,2],
-"db/da9/classqueue.html#ab45a4bfef7eba256a9c027bae86fc196":[9,0,32,10],
-"db/da9/classqueue.html#ac16ccadebb765e1ddbe415cdce1a17a5":[9,0,32,8],
-"db/da9/classqueue.html#ac2fff88dce4d7d2eb7134af382bd1b31":[9,0,32,7],
 "db/da9/classqueue.html#ad215eee654953d25150bb25d5ac12b7c":[9,0,32,1],
 "db/da9/classqueue.html#ae2a7a36270f5d15218a180fa59e5b3a5":[9,0,32,9],
 "db/dbc/tree__234_8cpp.html":[10,0,2,12],
@@ -165,8 +158,8 @@ var NAVTREEINDEX5 =
 "dd/d65/lu__decompose_8cpp.html#a1440a7779ac56f47a3f355ce4a8c7da0":[10,0,11,6,2],
 "dd/d65/lu__decompose_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[10,0,11,6,0],
 "dd/d65/lu__decompose_8cpp.html#a9459fcd1f020373d73eae2bad43786d0":[10,0,11,6,1],
-"dd/d69/namespacerange__queries.html":[9,0,9],
 "dd/d69/namespacerange__queries.html":[8,0,30],
+"dd/d69/namespacerange__queries.html":[9,0,9],
 "dd/d81/namespacecaesar.html":[8,0,2],
 "dd/d91/class_fenwick_tree.html":[9,0,18],
 "dd/d91/class_fenwick_tree.html#a115ff5c548b429b737ea09f75817d1f9":[9,0,18,4],
@@ -249,5 +242,12 @@ var NAVTREEINDEX5 =
 "de/dc3/binaryheap_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,2,3,1],
 "de/dcf/binary__exponent_8cpp.html":[10,0,10,1],
 "de/dcf/binary__exponent_8cpp.html#a31dbf5f7ceb9c9eec831ef9f7782291f":[10,0,10,1,1],
-"de/dcf/binary__exponent_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,10,1,2]
+"de/dcf/binary__exponent_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,10,1,2],
+"de/dcf/binary__exponent_8cpp.html#aeb48dce0725e63d19147944f41843c73":[10,0,10,1,0],
+"de/dd3/newton__raphson__method_8cpp.html":[10,0,11,8],
+"de/dd3/newton__raphson__method_8cpp.html#a2003b5b2dcfff0769b957ab5c968b03d":[10,0,11,8,0],
+"de/dd3/newton__raphson__method_8cpp.html#a3d3f7f41977394680af6ebbed96f3386":[10,0,11,8,1],
+"de/dd3/newton__raphson__method_8cpp.html#a5c5ff05b9f37ae59dad67e1d4f6cd51d":[10,0,11,8,4],
+"de/dd3/newton__raphson__method_8cpp.html#a75f355966e0a97665eaf5a4c79baa7af":[10,0,11,8,3],
+"de/dd3/newton__raphson__method_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,11,8,2]
 };
