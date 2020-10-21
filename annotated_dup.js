@@ -32,13 +32,14 @@ var annotated_dup =
     [ "Node", "db/d8b/struct_node.html", "db/d8b/struct_node" ],
     [ "Point", "d8/dc8/struct_point.html", "d8/dc8/struct_point" ],
     [ "query", "dd/d1b/structquery.html", "dd/d1b/structquery" ],
-    [ "Queue", "dc/db5/struct_queue.html", "dc/db5/struct_queue" ],
     [ "queue", "db/da9/classqueue.html", "db/da9/classqueue" ],
+    [ "Queue", "dc/db5/struct_queue.html", "dc/db5/struct_queue" ],
     [ "Queue_Array", "d0/dd2/class_queue___array.html", "d0/dd2/class_queue___array" ],
     [ "SegmentIntersection", "d4/db4/struct_segment_intersection.html", "d4/db4/struct_segment_intersection" ],
     [ "Solution", "dd/d4f/class_solution.html", "dd/d4f/class_solution" ],
     [ "stack", "d1/dc2/classstack.html", "d1/dc2/classstack" ],
     [ "stack_linkedList", "d2/dc4/classstack__linked_list.html", "d2/dc4/classstack__linked_list" ],
     [ "tower", "d2/d2c/structtower.html", "d2/d2c/structtower" ],
+    [ "Tree234", "db/d25/class_tree234.html", "db/d25/class_tree234" ],
     [ "Trie", "dd/d2f/class_trie.html", "dd/d2f/class_trie" ]
 ];

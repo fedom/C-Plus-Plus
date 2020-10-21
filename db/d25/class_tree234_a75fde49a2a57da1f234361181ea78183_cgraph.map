@@ -1,0 +1,5 @@
+<map id="Tree234::GetTreeMaxItem" name="Tree234::GetTreeMaxItem">
+<area shape="rect" id="node1" title="get the max item of the tree" alt="" coords="5,31,180,57"/>
+<area shape="rect" id="node2" href="$db/d8b/struct_node.html#a9b1b0f38e06f2be2f3287f737882d422" title="get max item (rightmost) in the current node" alt="" coords="247,5,381,32"/>
+<area shape="rect" id="node3" href="$db/d8b/struct_node.html#a1e2c6a52b704f81caced187e5dc7735e" title="get rightmose child of the current node" alt="" coords="228,56,400,83"/>
+</map>
