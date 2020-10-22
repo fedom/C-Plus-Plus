@@ -1,5 +1,12 @@
 var NAVTREEINDEX6 =
 {
+"de/dc3/binaryheap_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,2,3,1],
+"de/dcf/binary__exponent_8cpp.html":[10,0,10,1],
+"de/dcf/binary__exponent_8cpp.html#a31dbf5f7ceb9c9eec831ef9f7782291f":[10,0,10,1,1],
+"de/dcf/binary__exponent_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,10,1,2],
+"de/dcf/binary__exponent_8cpp.html#aeb48dce0725e63d19147944f41843c73":[10,0,10,1,0],
+"de/dd3/newton__raphson__method_8cpp.html":[10,0,11,8],
+"de/dd3/newton__raphson__method_8cpp.html#a2003b5b2dcfff0769b957ab5c968b03d":[10,0,11,8,0],
 "de/dd3/newton__raphson__method_8cpp.html#a3d3f7f41977394680af6ebbed96f3386":[10,0,11,8,1],
 "de/dd3/newton__raphson__method_8cpp.html#a5c5ff05b9f37ae59dad67e1d4f6cd51d":[10,0,11,8,4],
 "de/dd3/newton__raphson__method_8cpp.html#a75f355966e0a97665eaf5a4c79baa7af":[10,0,11,8,3],
@@ -35,8 +42,8 @@ var NAVTREEINDEX6 =
 "df/dc8/successive__approximation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,11,15,2],
 "df/dc8/successive__approximation_8cpp.html#ae89c36add7c55298c5195d0a83de1456":[10,0,11,15,1],
 "df/dcb/namespacestrings.html":[8,0,41],
-"df/dce/namespacegraph.html":[9,0,4],
 "df/dce/namespacegraph.html":[8,0,9],
+"df/dce/namespacegraph.html":[9,0,4],
 "df/dd0/queue__using__two__stacks_8cpp.html":[10,0,2,9],
 "df/dd0/queue__using__two__stacks_8cpp.html#a831ded10ecad88c14a8e22b96f4c1863":[10,0,2,9,1],
 "df/dd0/queue__using__two__stacks_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,2,9,0],
@@ -131,8 +138,8 @@ var NAVTREEINDEX6 =
 "functions_x.html":[9,3,0,23],
 "functions_y.html":[9,3,0,24],
 "functions_~.html":[9,3,0,25],
-"globals.html":[10,1,0],
 "globals.html":[10,1,0,0],
+"globals.html":[10,1,0],
 "globals_a.html":[10,1,0,1],
 "globals_b.html":[10,1,0,2],
 "globals_c.html":[10,1,0,3],
@@ -191,12 +198,5 @@ var NAVTREEINDEX6 =
 "namespacemembers_type.html":[8,1,3],
 "namespacemembers_vars.html":[8,1,2],
 "namespaces.html":[8,0],
-"pages.html":[],
-"":[9,0,4,0],
-"":[9,0,3,0],
-"":[9,0,1,0],
-"":[9,0,9,0],
-"":[9,0,6,0,0],
-"":[9,0,6,0],
-"":[9,0,7,0]
+"pages.html":[]
 };

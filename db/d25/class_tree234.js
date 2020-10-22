@@ -1,9 +1,9 @@
 var class_tree234 =
 [
-    [ "Tree234", "db/d25/class_tree234.html#a450c05398016398b109ec7beb6ea3abb", null ],
+    [ "Tree234", "db/d25/class_tree234.html#ab5b2be61d02b103eea63d19adf0775fe", null ],
+    [ "Tree234", "db/d25/class_tree234.html#a5ec53956f5229c3540d8007e5b2d0f5c", null ],
+    [ "Tree234", "db/d25/class_tree234.html#a6f6b2bdfa50c3b7db4e44d6e52c1dbbc", null ],
     [ "~Tree234", "db/d25/class_tree234.html#a02207df5931b6a4fca472c4f35375a2f", null ],
-    [ "Tree234", "db/d25/class_tree234.html#a3b76255f156f370ba7102b726aa5f3e3", null ],
-    [ "Tree234", "db/d25/class_tree234.html#aec6e8838027fafa290e4992da150ee8f", null ],
     [ "DeleteNode", "db/d25/class_tree234.html#a48d9e572be01c4a9eed40b9636a4ccd2", null ],
     [ "GetTreeMaxItem", "db/d25/class_tree234.html#a75fde49a2a57da1f234361181ea78183", null ],
     [ "GetTreeMinItem", "db/d25/class_tree234.html#a66c20ef9cefbe058bdfc3e49180ef77d", null ],
@@ -15,8 +15,8 @@ var class_tree234 =
     [ "Merge", "db/d25/class_tree234.html#ae3ff8c703d85c4c5d0abd13c08c72151", null ],
     [ "MergeNode", "db/d25/class_tree234.html#a7e09153922c331f61d6798bcac905be2", null ],
     [ "MergeNodeNotFull", "db/d25/class_tree234.html#a5ceb8cd694a3edb6e70ed3dd54ee4521", null ],
-    [ "operator=", "db/d25/class_tree234.html#afbbe2e3df9747c55d694b425a94164c3", null ],
-    [ "operator=", "db/d25/class_tree234.html#af05f5e5543184e1e24369b44f31914ee", null ],
+    [ "operator=", "db/d25/class_tree234.html#a20e8b099c3ca4930c0e79eb42c00ad06", null ],
+    [ "operator=", "db/d25/class_tree234.html#a52478595810756089f636bb9b82b0bc4", null ],
     [ "Print", "db/d25/class_tree234.html#a848886421f306be0afb116d91a41995b", null ],
     [ "PrintNode", "db/d25/class_tree234.html#abf8ef706486c6d55c7bf0b85f8b19148", null ],
     [ "PrintNode2", "db/d25/class_tree234.html#a6d4e10e01fd3533707b493702904b8fe", null ],
