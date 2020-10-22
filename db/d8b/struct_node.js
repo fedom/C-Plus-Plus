@@ -25,10 +25,10 @@ var struct_node =
     [ "SetChild", "db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c", null ],
     [ "SetCount", "db/d8b/struct_node.html#ab5fbabd89ce8e89ccaa9e7371bc37a3d", null ],
     [ "SetItem", "db/d8b/struct_node.html#a2850fd257fe00ea2e1539325db18947c", null ],
-    [ "children", "db/d8b/struct_node.html#a9ecb9dac8b7c55ded3b823d05203327e", null ],
+    [ "children", "db/d8b/struct_node.html#a80f28a1806b0d1f4d7d0d3f56009a23a", null ],
     [ "count", "db/d8b/struct_node.html#aeff36e03bbb367b048df4e57182cb010", null ],
     [ "data", "db/d8b/struct_node.html#a87c003c9f600e3fc58e6e90835f0b605", null ],
-    [ "items", "db/d8b/struct_node.html#a9b5b7a0f4f9d3b9a7efdc23de320cf13", null ],
+    [ "items", "db/d8b/struct_node.html#abc72ecc363a9390eda3ea8ecb6396be6", null ],
     [ "next", "db/d8b/struct_node.html#a80be4538a9184fa43c1dee17641e819b", null ],
     [ "next", "db/d8b/struct_node.html#a2559a716f69ccaa76d648d9f1b83065e", null ],
     [ "val", "db/d8b/struct_node.html#ab1d228a881cf7465b2d42ea135781427", null ]
