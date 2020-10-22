@@ -246,17 +246,17 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>return the max item of the tree </dd></dl>
-<div class="fragment"><div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;                                      {</div>
-<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;    assert(tree);</div>
-<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;    <span class="keywordtype">int</span> <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/max.html">max</a> = 0;</div>
-<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160; </div>
-<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;    <span class="keywordflow">while</span> (tree) {</div>
-<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/max.html">max</a> = tree-&gt;<a class="code" href="../../db/d8b/struct_node.html#a9b1b0f38e06f2be2f3287f737882d422">GetMaxItem</a>();</div>
-<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;        tree = tree-&gt;<a class="code" href="../../db/d8b/struct_node.html#a1e2c6a52b704f81caced187e5dc7735e">GetRightmostChild</a>();</div>
-<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;    }</div>
-<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160; </div>
-<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;    <span class="keywordflow">return</span> <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/max.html">max</a>;</div>
-<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;                                      {</div>
+<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;    assert(tree);</div>
+<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;    <span class="keywordtype">int</span> <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/max.html">max</a> = 0;</div>
+<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160; </div>
+<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;    <span class="keywordflow">while</span> (tree) {</div>
+<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/max.html">max</a> = tree-&gt;<a class="code" href="../../db/d8b/struct_node.html#a9b1b0f38e06f2be2f3287f737882d422">GetMaxItem</a>();</div>
+<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;        tree = tree-&gt;<a class="code" href="../../db/d8b/struct_node.html#a1e2c6a52b704f81caced187e5dc7735e">GetRightmostChild</a>();</div>
+<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;    }</div>
+<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160; </div>
+<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;    <span class="keywordflow">return</span> <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/max.html">max</a>;</div>
+<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -298,17 +298,17 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>return the min item of the tree </dd></dl>
-<div class="fragment"><div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;                                      {</div>
-<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;    assert(tree);</div>
-<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;    <span class="keywordtype">int</span> <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/min.html">min</a> = 0;</div>
-<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160; </div>
-<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;    <span class="keywordflow">while</span> (tree) {</div>
-<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/min.html">min</a> = tree-&gt;<a class="code" href="../../db/d8b/struct_node.html#a3cbce1931da13d8db8f1d350ae841db5">GetMinItem</a>();</div>
-<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;        tree = tree-&gt;<a class="code" href="../../db/d8b/struct_node.html#aa1b7794370f98b1e5b5b8190ea7d7b67">GetLeftmostChild</a>();</div>
-<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;    }</div>
-<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160; </div>
-<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;    <span class="keywordflow">return</span> <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/min.html">min</a>;</div>
-<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;                                      {</div>
+<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;    assert(tree);</div>
+<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;    <span class="keywordtype">int</span> <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/min.html">min</a> = 0;</div>
+<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160; </div>
+<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;    <span class="keywordflow">while</span> (tree) {</div>
+<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/min.html">min</a> = tree-&gt;<a class="code" href="../../db/d8b/struct_node.html#a3cbce1931da13d8db8f1d350ae841db5">GetMinItem</a>();</div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;        tree = tree-&gt;<a class="code" href="../../db/d8b/struct_node.html#aa1b7794370f98b1e5b5b8190ea7d7b67">GetLeftmostChild</a>();</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;    }</div>
+<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160; </div>
+<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;    <span class="keywordflow">return</span> <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/min.html">min</a>;</div>
+<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -361,18 +361,18 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="fragment"><div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;                                                {</div>
-<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a> = parent-&gt;GetItemLeftChild(index);</div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a> = parent-&gt;GetItemRightChild(index);</div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160; </div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;    assert(right &amp;&amp; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a>-&gt;Is34Node());</div>
-<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;    assert(left &amp;&amp; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a>-&gt;Is2Node());</div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160; </div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a>-&gt;InsertItemByIndex(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a>-&gt;GetCount(), parent-&gt;GetItem(index),</div>
-<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;                            <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a>-&gt;GetLeftmostChild(), <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;    parent-&gt;SetItem(index, <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a>-&gt;GetMinItem());</div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a>-&gt;RemoveItemByIndex(0, <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;                                                {</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a> = parent-&gt;GetItemLeftChild(index);</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a> = parent-&gt;GetItemRightChild(index);</div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160; </div>
+<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;    assert(right &amp;&amp; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a>-&gt;Is34Node());</div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;    assert(left &amp;&amp; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a>-&gt;Is2Node());</div>
+<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160; </div>
+<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a>-&gt;InsertItemByIndex(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a>-&gt;GetCount(), parent-&gt;GetItem(index),</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;                            <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a>-&gt;GetLeftmostChild(), <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;    parent-&gt;SetItem(index, <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a>-&gt;GetMinItem());</div>
+<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a>-&gt;RemoveItemByIndex(0, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -420,42 +420,42 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>return the merged 4-node </dd></dl>
-<div class="fragment"><div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;                                            {</div>
-<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;    assert(parent);</div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160; </div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;    <span class="comment">// bool is_parent_2node = parent-&gt;Is2Node();</span></div>
-<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160; </div>
-<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *left_child = parent-&gt;GetItemLeftChild(index);</div>
-<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *right_child = parent-&gt;GetItemRightChild(index);</div>
-<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160; </div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;    assert(left_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c">Is2Node</a>() &amp;&amp; right_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c">Is2Node</a>());</div>
-<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160; </div>
-<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;    <span class="keywordtype">int</span> item = parent-&gt;GetItem(index);</div>
-<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160; </div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;    <span class="comment">// 1. merge parent&#39;s item and right child to left child</span></div>
-<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;    left_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#a2850fd257fe00ea2e1539325db18947c">SetItem</a>(1, item);</div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;    left_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#a2850fd257fe00ea2e1539325db18947c">SetItem</a>(2, right_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#a711e6d7e2c0318df0842e0caad4cad05">GetItem</a>(0));</div>
-<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;    left_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c">SetChild</a>(2, right_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#aec3cbfe34973f0752071599afe34939b">GetChild</a>(0));</div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;    left_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c">SetChild</a>(3, right_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#aec3cbfe34973f0752071599afe34939b">GetChild</a>(1));</div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160; </div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;    left_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#ab5fbabd89ce8e89ccaa9e7371bc37a3d">SetCount</a>(3);</div>
-<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160; </div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;    <span class="comment">// 2. remove the parent&#39;s item</span></div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;    parent-&gt;RemoveItemByIndex(index, <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160; </div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;    <span class="comment">// 3. delete the unused right child</span></div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;    <span class="keyword">delete</span> right_child;</div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160; </div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;    <span class="comment">// 4. for parent</span></div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;    <span class="comment">// (1) if it&#39;s 2-node, it must be the root, we delete it and set root to</span></div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;    <span class="comment">// left_child (2) if it&#39;s 3-node or 4-node, we do nothing</span></div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;    <span class="comment">// if (is_parent_2node) {</span></div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;    <span class="comment">//     // delete parent;</span></div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;    <span class="comment">//     root_ = left_child;</span></div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;    <span class="comment">// }</span></div>
-<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160; </div>
-<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;    <span class="keywordflow">return</span> left_child;</div>
-<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;                                            {</div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;    assert(parent);</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160; </div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;    <span class="comment">// bool is_parent_2node = parent-&gt;Is2Node();</span></div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160; </div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *left_child = parent-&gt;GetItemLeftChild(index);</div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *right_child = parent-&gt;GetItemRightChild(index);</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160; </div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;    assert(left_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c">Is2Node</a>() &amp;&amp; right_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c">Is2Node</a>());</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160; </div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;    <span class="keywordtype">int</span> item = parent-&gt;GetItem(index);</div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160; </div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;    <span class="comment">// 1. merge parent&#39;s item and right child to left child</span></div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;    left_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#a2850fd257fe00ea2e1539325db18947c">SetItem</a>(1, item);</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;    left_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#a2850fd257fe00ea2e1539325db18947c">SetItem</a>(2, right_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#a711e6d7e2c0318df0842e0caad4cad05">GetItem</a>(0));</div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;    left_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c">SetChild</a>(2, right_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#aec3cbfe34973f0752071599afe34939b">GetChild</a>(0));</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;    left_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c">SetChild</a>(3, right_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#aec3cbfe34973f0752071599afe34939b">GetChild</a>(1));</div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160; </div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;    left_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#ab5fbabd89ce8e89ccaa9e7371bc37a3d">SetCount</a>(3);</div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160; </div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;    <span class="comment">// 2. remove the parent&#39;s item</span></div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;    parent-&gt;RemoveItemByIndex(index, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160; </div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;    <span class="comment">// 3. delete the unused right child</span></div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    <span class="keyword">delete</span> right_child;</div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160; </div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;    <span class="comment">// 4. for parent</span></div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;    <span class="comment">// (1) if it&#39;s 2-node, it must be the root, we delete it and set root to</span></div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;    <span class="comment">// left_child (2) if it&#39;s 3-node or 4-node, we do nothing</span></div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;    <span class="comment">// if (is_parent_2node) {</span></div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;    <span class="comment">//     // delete parent;</span></div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;    <span class="comment">//     root_ = left_child;</span></div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;    <span class="comment">// }</span></div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160; </div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;    <span class="keywordflow">return</span> left_child;</div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -509,25 +509,25 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>return the overflow node of this level back to the upper level to merge </dd></dl>
-<div class="fragment"><div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;                                                   {</div>
-<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;    assert(dst_node != <span class="keyword">nullptr</span> &amp;&amp; <a class="code" href="../../d5/da1/structnode.html">node</a> != <span class="keyword">nullptr</span>);</div>
-<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160; </div>
-<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;    <span class="keywordflow">if</span> (!dst_node-&gt;<a class="code" href="../../db/d8b/struct_node.html#a5cb5234ccefa82c8cc49842898131cb6">IsFull</a>()) {</div>
-<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;        <a class="code" href="../../db/d25/class_tree234.html#a5ceb8cd694a3edb6e70ed3dd54ee4521">MergeNodeNotFull</a>(dst_node, <a class="code" href="../../d5/da1/structnode.html">node</a>);</div>
-<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;    }</div>
-<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160; </div>
-<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;    dst_node = <a class="code" href="../../db/d25/class_tree234.html#ae36a2684ad2d5cea087cbb5c7d94e96c">SplitNode</a>(dst_node);</div>
-<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160; </div>
-<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItem(0) &lt; dst_node-&gt;<a class="code" href="../../db/d8b/struct_node.html#a711e6d7e2c0318df0842e0caad4cad05">GetItem</a>(0)) {</div>
-<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;        <a class="code" href="../../db/d25/class_tree234.html#a5ceb8cd694a3edb6e70ed3dd54ee4521">MergeNodeNotFull</a>(dst_node-&gt;<a class="code" href="../../db/d8b/struct_node.html#aec3cbfe34973f0752071599afe34939b">GetChild</a>(0), <a class="code" href="../../d5/da1/structnode.html">node</a>);</div>
-<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160; </div>
-<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;        <a class="code" href="../../db/d25/class_tree234.html#a5ceb8cd694a3edb6e70ed3dd54ee4521">MergeNodeNotFull</a>(dst_node-&gt;<a class="code" href="../../db/d8b/struct_node.html#aec3cbfe34973f0752071599afe34939b">GetChild</a>(1), <a class="code" href="../../d5/da1/structnode.html">node</a>);</div>
-<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;    }</div>
-<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160; </div>
-<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;    <span class="keywordflow">return</span> dst_node;</div>
-<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;                                                   {</div>
+<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;    assert(dst_node != <span class="keyword">nullptr</span> &amp;&amp; <a class="code" href="../../d5/da1/structnode.html">node</a> != <span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160; </div>
+<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;    <span class="keywordflow">if</span> (!dst_node-&gt;<a class="code" href="../../db/d8b/struct_node.html#a5cb5234ccefa82c8cc49842898131cb6">IsFull</a>()) {</div>
+<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;        <a class="code" href="../../db/d25/class_tree234.html#a5ceb8cd694a3edb6e70ed3dd54ee4521">MergeNodeNotFull</a>(dst_node, <a class="code" href="../../d5/da1/structnode.html">node</a>);</div>
+<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;    }</div>
+<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160; </div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;    dst_node = <a class="code" href="../../db/d25/class_tree234.html#ae36a2684ad2d5cea087cbb5c7d94e96c">SplitNode</a>(dst_node);</div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160; </div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItem(0) &lt; dst_node-&gt;<a class="code" href="../../db/d8b/struct_node.html#a711e6d7e2c0318df0842e0caad4cad05">GetItem</a>(0)) {</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;        <a class="code" href="../../db/d25/class_tree234.html#a5ceb8cd694a3edb6e70ed3dd54ee4521">MergeNodeNotFull</a>(dst_node-&gt;<a class="code" href="../../db/d8b/struct_node.html#aec3cbfe34973f0752071599afe34939b">GetChild</a>(0), <a class="code" href="../../d5/da1/structnode.html">node</a>);</div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160; </div>
+<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;        <a class="code" href="../../db/d25/class_tree234.html#a5ceb8cd694a3edb6e70ed3dd54ee4521">MergeNodeNotFull</a>(dst_node-&gt;<a class="code" href="../../db/d8b/struct_node.html#aec3cbfe34973f0752071599afe34939b">GetChild</a>(1), <a class="code" href="../../d5/da1/structnode.html">node</a>);</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;    }</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160; </div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;    <span class="keywordflow">return</span> dst_node;</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -580,15 +580,15 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="fragment"><div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;                                                         {</div>
-<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;    assert(dst_node &amp;&amp; <a class="code" href="../../d5/da1/structnode.html">node</a> &amp;&amp; !dst_node-&gt;<a class="code" href="../../db/d8b/struct_node.html#a5cb5234ccefa82c8cc49842898131cb6">IsFull</a>() &amp;&amp; <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;Is2Node());</div>
-<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160; </div>
-<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;    <span class="keywordtype">int</span> i = dst_node-&gt;<a class="code" href="../../db/d8b/struct_node.html#a477404e67bd9114bf8203b47e2a2db20">InsertItem</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItem(0));</div>
-<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160; </div>
-<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;    dst_node-&gt;<a class="code" href="../../db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c">SetChild</a>(i, <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetChild(0));</div>
-<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;    dst_node-&gt;<a class="code" href="../../db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c">SetChild</a>(i + 1, <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetChild(1));</div>
-<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;    <span class="keyword">delete</span> <a class="code" href="../../d1/df3/hash__search_8cpp.html#a8ca8dcb494104d273679e219e53d0555">node</a>;</div>
-<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;                                                         {</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;    assert(dst_node &amp;&amp; <a class="code" href="../../d5/da1/structnode.html">node</a> &amp;&amp; !dst_node-&gt;<a class="code" href="../../db/d8b/struct_node.html#a5cb5234ccefa82c8cc49842898131cb6">IsFull</a>() &amp;&amp; <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;Is2Node());</div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160; </div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;    <span class="keywordtype">int</span> i = dst_node-&gt;<a class="code" href="../../db/d8b/struct_node.html#a477404e67bd9114bf8203b47e2a2db20">InsertItem</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItem(0));</div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160; </div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;    dst_node-&gt;<a class="code" href="../../db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c">SetChild</a>(i, <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetChild(0));</div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;    dst_node-&gt;<a class="code" href="../../db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c">SetChild</a>(i + 1, <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetChild(1));</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;    <span class="keyword">delete</span> <a class="code" href="../../d1/df3/hash__search_8cpp.html#a8ca8dcb494104d273679e219e53d0555">node</a>;</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -641,161 +641,161 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>return true if remove success, false otherwise </dd></dl>
-<div class="fragment"><div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;                                                 {</div>
-<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d5/da1/structnode.html">node</a>) {</div>
-<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;IsLeaf()) {</div>
-<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;Contains(item)) {</div>
-<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;Is2Node()) {</div>
-<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;                    <span class="comment">// node must be root</span></div>
-<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;                    <span class="keyword">delete</span> <a class="code" href="../../d1/df3/hash__search_8cpp.html#a8ca8dcb494104d273679e219e53d0555">node</a>;</div>
-<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;                    <a class="code" href="../../db/d25/class_tree234.html#a35185c3121306ea57172cc7d658d3979">root_</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;                } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;                    <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;RemoveItemByIndex(<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemIndex(item), <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;                }</div>
-<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;            }</div>
-<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;        }</div>
-<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160; </div>
-<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;        <span class="comment">// node is internal</span></div>
-<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;Contains(item)) {</div>
-<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;            <span class="keywordtype">int</span> index = <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemIndex(item);</div>
-<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160; </div>
-<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;            <span class="comment">// Here is important!!! What we do next depend on its children&#39;s</span></div>
-<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;            <span class="comment">// state. Why?</span></div>
-<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;            <a class="code" href="../../db/d8b/struct_node.html">Node</a> *left_child = <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemLeftChild(index);</div>
-<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;            <a class="code" href="../../db/d8b/struct_node.html">Node</a> *right_child = <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemRightChild(index);</div>
-<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;            assert(left_child &amp;&amp; right_child);</div>
-<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160; </div>
-<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;            <span class="keywordflow">if</span> (left_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c">Is2Node</a>() &amp;&amp; right_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c">Is2Node</a>()) {</div>
-<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;                <span class="comment">// both left and right child are 2-node,we should not modify</span></div>
-<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;                <span class="comment">// current node in this situation. Because we are going to do</span></div>
-<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;                <span class="comment">// merge with its children which will move target item to next</span></div>
-<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;                <span class="comment">// layer. so if we replace the item with successor or</span></div>
-<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;                <span class="comment">// predecessor now, when we do the recursive remove with</span></div>
-<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;                <span class="comment">// successor or predecessor, we will result in removing the just</span></div>
-<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;                <span class="comment">// replaced one in the merged node. That&#39;s not what we want.</span></div>
-<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160; </div>
-<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;                <span class="comment">// we need to convert the child 2-node to 3-node or 4-node</span></div>
-<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;                <span class="comment">// first. First we try to see if any of them can convert to</span></div>
-<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;                <span class="comment">// 3-node by rotate. By using rotate we keep the empty house for</span></div>
-<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;                <span class="comment">// the future insertion which will be more efficient than merge.</span></div>
-<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;                <span class="comment">//</span></div>
-<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;                <span class="comment">//            | ? | node | ? |</span></div>
-<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;                <span class="comment">//           /    |      |    \</span></div>
-<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;<span class="comment">                //          /     |      |     \</span></div>
-<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;<span class="comment">                //         /      |      |      \</span></div>
-<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;<span class="comment">                //        /       |      |       \</span></div>
-<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;<span class="comment">                //       /        |      |        \</span></div>
-<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;<span class="comment">                //      /         |      |         \</span></div>
-<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;<span class="comment">                //     ?  left_child  right_child   ?</span></div>
-<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;                <span class="comment">//</span></div>
-<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160; </div>
-<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;                <span class="comment">// node must be the root</span></div>
-<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;Is2Node()) {</div>
-<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;                    <span class="comment">// this means we can&#39;t avoid merging the target item into</span></div>
-<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;                    <span class="comment">// next layer, and this will cause us do different process</span></div>
-<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;                    <span class="comment">// compared with other cases</span></div>
-<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;                    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *new_root = <a class="code" href="../../db/d25/class_tree234.html#ae3ff8c703d85c4c5d0abd13c08c72151">Merge</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>, index);</div>
-<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;                    <span class="keyword">delete</span> <a class="code" href="../../db/d25/class_tree234.html#a35185c3121306ea57172cc7d658d3979">root_</a>;</div>
-<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;                    <a class="code" href="../../db/d25/class_tree234.html#a35185c3121306ea57172cc7d658d3979">root_</a> = new_root;</div>
-<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;                    <a class="code" href="../../d5/da1/structnode.html">node</a> = <a class="code" href="../../db/d25/class_tree234.html#a35185c3121306ea57172cc7d658d3979">root_</a>;</div>
-<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160; </div>
-<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;                    <span class="comment">// now node point to the</span></div>
-<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;                }</div>
-<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160; </div>
-<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;                <span class="comment">// here means we can avoid merging the target item into next</span></div>
-<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;                <span class="comment">// layer. So we convert one of its left or right child to 3-node</span></div>
-<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;                <span class="comment">// and then do the successor or predecessor swap and recursive</span></div>
-<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;                <span class="comment">// remove the next layer will successor or predecessor.</span></div>
-<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;                <span class="keywordflow">do</span> {</div>
-<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;                    <span class="keywordflow">if</span> (index &gt; 0) {</div>
-<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;                        <span class="comment">// left_child has left-sibling, we check if we can do a</span></div>
-<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;                        <span class="comment">// rotate</span></div>
-<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;                        <a class="code" href="../../db/d8b/struct_node.html">Node</a> *left_sibling = <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemLeftChild(index - 1);</div>
-<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;                        <span class="keywordflow">if</span> (left_sibling-&gt;<a class="code" href="../../db/d8b/struct_node.html#ae4c28fa9b7efdb560563104fcb9dfb45">Is34Node</a>()) {</div>
-<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;                            <a class="code" href="../../db/d25/class_tree234.html#a59494707db877098d0ffb770437d6a10">RightRotate</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>, index - 1);</div>
-<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;                            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;                        }</div>
-<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;                    }</div>
-<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160; </div>
-<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;                    <span class="keywordflow">if</span> (index &lt; node-&gt;GetCount() - 1) {</div>
-<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;                        <span class="comment">// right_child has right-sibling, we check if we can do</span></div>
-<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;                        <span class="comment">// a rotate</span></div>
-<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;                        <a class="code" href="../../db/d8b/struct_node.html">Node</a> *right_sibling =</div>
-<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;                            <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemRightChild(index + 1);</div>
-<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;                        <span class="keywordflow">if</span> (right_sibling-&gt;<a class="code" href="../../db/d8b/struct_node.html#ae4c28fa9b7efdb560563104fcb9dfb45">Is34Node</a>()) {</div>
-<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;                            <a class="code" href="../../db/d25/class_tree234.html#ab3733ff7bf637266d77820a49d4999bc">LeftRotate</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>, index + 1);</div>
-<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;                            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;                        }</div>
-<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;                    }</div>
-<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160; </div>
-<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;                    <span class="comment">// we do a merge. We avoid merging the target item, which</span></div>
-<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;                    <span class="comment">// may trigger another merge in the recursion process.</span></div>
-<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;                    <span class="keywordflow">if</span> (index &gt; 0) {</div>
-<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;                        <a class="code" href="../../db/d25/class_tree234.html#ae3ff8c703d85c4c5d0abd13c08c72151">Merge</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>, index - 1);</div>
-<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;                        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;                    }</div>
-<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160; </div>
-<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;                    <a class="code" href="../../db/d25/class_tree234.html#ae3ff8c703d85c4c5d0abd13c08c72151">Merge</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>, index + 1);</div>
-<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160; </div>
-<div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;                } <span class="keywordflow">while</span> (<span class="keyword">false</span>);</div>
-<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;            }</div>
-<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160; </div>
-<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;            <span class="comment">// refresh the left_child and right_child since they may be invalid</span></div>
-<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;            <span class="comment">// because of merge</span></div>
-<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;            left_child = <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemLeftChild(index);</div>
-<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;            right_child = <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemRightChild(index);</div>
-<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160; </div>
-<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;            <span class="keywordflow">if</span> (left_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#ae4c28fa9b7efdb560563104fcb9dfb45">Is34Node</a>()) {</div>
-<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;                <span class="keywordtype">int</span> predecessor_item = <a class="code" href="../../db/d25/class_tree234.html#a75fde49a2a57da1f234361181ea78183">GetTreeMaxItem</a>(left_child);</div>
-<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;                <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;SetItem(<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemIndex(item), predecessor_item);</div>
-<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160; </div>
-<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;                <a class="code" href="../../d5/da1/structnode.html">node</a> = left_child;</div>
-<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;                item = predecessor_item;</div>
-<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;            }</div>
-<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160; </div>
-<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;            <span class="keywordflow">if</span> (right_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#ae4c28fa9b7efdb560563104fcb9dfb45">Is34Node</a>()) {</div>
-<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;                <span class="keywordtype">int</span> successor_item = <a class="code" href="../../db/d25/class_tree234.html#a66c20ef9cefbe058bdfc3e49180ef77d">GetTreeMinItem</a>(right_child);</div>
-<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;                <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;SetItem(<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemIndex(item), successor_item);</div>
-<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;                <a class="code" href="../../d5/da1/structnode.html">node</a> = right_child;</div>
-<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;                item = successor_item;</div>
-<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;            }</div>
-<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;        }</div>
-<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160; </div>
-<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;        <a class="code" href="../../db/d8b/struct_node.html">Node</a> *next_node = <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetNextPossibleChild(item);</div>
-<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160; </div>
-<div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160;        <span class="keywordflow">if</span> (next_node-&gt;<a class="code" href="../../db/d8b/struct_node.html#ae4c28fa9b7efdb560563104fcb9dfb45">Is34Node</a>()) {</div>
-<div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;            <a class="code" href="../../d5/da1/structnode.html">node</a> = next_node;</div>
-<div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;        }</div>
-<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160; </div>
-<div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../db/d25/class_tree234.html#added89278e7bb87417a73918682a985e">TryRightRotate</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>, next_node)) {</div>
-<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;            <a class="code" href="../../d5/da1/structnode.html">node</a> = next_node;</div>
-<div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;        }</div>
-<div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160; </div>
-<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../db/d25/class_tree234.html#ad5b21cf04d1fab3d088ac00582c521c7">TryLeftRotate</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>, next_node)) {</div>
-<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;            <a class="code" href="../../d5/da1/structnode.html">node</a> = next_node;</div>
-<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;        }</div>
-<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160; </div>
-<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;        <span class="comment">// get here means both left sibling and right sibling of next_node is</span></div>
-<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;        <span class="comment">// 2-node, so we do merge</span></div>
-<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;        <span class="keywordtype">int</span> child_index = <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetChildIndex(next_node);</div>
-<div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;        <span class="keywordflow">if</span> (child_index &gt; 0) {</div>
-<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;            <a class="code" href="../../d5/da1/structnode.html">node</a> = <a class="code" href="../../db/d25/class_tree234.html#ae3ff8c703d85c4c5d0abd13c08c72151">Merge</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>, child_index - 1);</div>
-<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;            <a class="code" href="../../d5/da1/structnode.html">node</a> = <a class="code" href="../../db/d25/class_tree234.html#ae3ff8c703d85c4c5d0abd13c08c72151">Merge</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>, child_index);</div>
-<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;        }</div>
-<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160; </div>
-<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;    }  <span class="comment">// while</span></div>
-<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160; </div>
-<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;                                                 {</div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d5/da1/structnode.html">node</a>) {</div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;IsLeaf()) {</div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;Contains(item)) {</div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;Is2Node()) {</div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;                    <span class="comment">// node must be root</span></div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;                    <span class="keyword">delete</span> <a class="code" href="../../d1/df3/hash__search_8cpp.html#a8ca8dcb494104d273679e219e53d0555">node</a>;</div>
+<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;                    <a class="code" href="../../db/d25/class_tree234.html#a35185c3121306ea57172cc7d658d3979">root_</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;                } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;                    <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;RemoveItemByIndex(<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemIndex(item), <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;                }</div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;            }</div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;        }</div>
+<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160; </div>
+<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;        <span class="comment">// node is internal</span></div>
+<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;Contains(item)) {</div>
+<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;            <span class="keywordtype">int</span> index = <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemIndex(item);</div>
+<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160; </div>
+<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;            <span class="comment">// Here is important!!! What we do next depend on its children&#39;s</span></div>
+<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;            <span class="comment">// state. Why?</span></div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;            <a class="code" href="../../db/d8b/struct_node.html">Node</a> *left_child = <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemLeftChild(index);</div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;            <a class="code" href="../../db/d8b/struct_node.html">Node</a> *right_child = <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemRightChild(index);</div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;            assert(left_child &amp;&amp; right_child);</div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160; </div>
+<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;            <span class="keywordflow">if</span> (left_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c">Is2Node</a>() &amp;&amp; right_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c">Is2Node</a>()) {</div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;                <span class="comment">// both left and right child are 2-node,we should not modify</span></div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;                <span class="comment">// current node in this situation. Because we are going to do</span></div>
+<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;                <span class="comment">// merge with its children which will move target item to next</span></div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;                <span class="comment">// layer. so if we replace the item with successor or</span></div>
+<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;                <span class="comment">// predecessor now, when we do the recursive remove with</span></div>
+<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;                <span class="comment">// successor or predecessor, we will result in removing the just</span></div>
+<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;                <span class="comment">// replaced one in the merged node. That&#39;s not what we want.</span></div>
+<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160; </div>
+<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;                <span class="comment">// we need to convert the child 2-node to 3-node or 4-node</span></div>
+<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;                <span class="comment">// first. First we try to see if any of them can convert to</span></div>
+<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;                <span class="comment">// 3-node by rotate. By using rotate we keep the empty house for</span></div>
+<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;                <span class="comment">// the future insertion which will be more efficient than merge.</span></div>
+<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;                <span class="comment">//</span></div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;                <span class="comment">//            | ? | node | ? |</span></div>
+<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;                <span class="comment">//           /    |      |    \</span></div>
+<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;<span class="comment">                //          /     |      |     \</span></div>
+<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;<span class="comment">                //         /      |      |      \</span></div>
+<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;<span class="comment">                //        /       |      |       \</span></div>
+<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;<span class="comment">                //       /        |      |        \</span></div>
+<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;<span class="comment">                //      /         |      |         \</span></div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;<span class="comment">                //     ?  left_child  right_child   ?</span></div>
+<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;                <span class="comment">//</span></div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160; </div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;                <span class="comment">// node must be the root</span></div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;Is2Node()) {</div>
+<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;                    <span class="comment">// this means we can&#39;t avoid merging the target item into</span></div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;                    <span class="comment">// next layer, and this will cause us do different process</span></div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;                    <span class="comment">// compared with other cases</span></div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;                    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *new_root = <a class="code" href="../../db/d25/class_tree234.html#ae3ff8c703d85c4c5d0abd13c08c72151">Merge</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>, index);</div>
+<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;                    <span class="keyword">delete</span> <a class="code" href="../../db/d25/class_tree234.html#a35185c3121306ea57172cc7d658d3979">root_</a>;</div>
+<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;                    <a class="code" href="../../db/d25/class_tree234.html#a35185c3121306ea57172cc7d658d3979">root_</a> = new_root;</div>
+<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;                    <a class="code" href="../../d5/da1/structnode.html">node</a> = <a class="code" href="../../db/d25/class_tree234.html#a35185c3121306ea57172cc7d658d3979">root_</a>;</div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160; </div>
+<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;                    <span class="comment">// now node point to the</span></div>
+<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;                }</div>
+<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160; </div>
+<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;                <span class="comment">// here means we can avoid merging the target item into next</span></div>
+<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;                <span class="comment">// layer. So we convert one of its left or right child to 3-node</span></div>
+<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;                <span class="comment">// and then do the successor or predecessor swap and recursive</span></div>
+<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;                <span class="comment">// remove the next layer will successor or predecessor.</span></div>
+<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;                <span class="keywordflow">do</span> {</div>
+<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;                    <span class="keywordflow">if</span> (index &gt; 0) {</div>
+<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;                        <span class="comment">// left_child has left-sibling, we check if we can do a</span></div>
+<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;                        <span class="comment">// rotate</span></div>
+<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;                        <a class="code" href="../../db/d8b/struct_node.html">Node</a> *left_sibling = <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemLeftChild(index - 1);</div>
+<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;                        <span class="keywordflow">if</span> (left_sibling-&gt;<a class="code" href="../../db/d8b/struct_node.html#ae4c28fa9b7efdb560563104fcb9dfb45">Is34Node</a>()) {</div>
+<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;                            <a class="code" href="../../db/d25/class_tree234.html#a59494707db877098d0ffb770437d6a10">RightRotate</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>, index - 1);</div>
+<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;                            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;                        }</div>
+<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;                    }</div>
+<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160; </div>
+<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;                    <span class="keywordflow">if</span> (index &lt; node-&gt;GetCount() - 1) {</div>
+<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;                        <span class="comment">// right_child has right-sibling, we check if we can do</span></div>
+<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;                        <span class="comment">// a rotate</span></div>
+<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;                        <a class="code" href="../../db/d8b/struct_node.html">Node</a> *right_sibling =</div>
+<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;                            <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemRightChild(index + 1);</div>
+<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;                        <span class="keywordflow">if</span> (right_sibling-&gt;<a class="code" href="../../db/d8b/struct_node.html#ae4c28fa9b7efdb560563104fcb9dfb45">Is34Node</a>()) {</div>
+<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;                            <a class="code" href="../../db/d25/class_tree234.html#ab3733ff7bf637266d77820a49d4999bc">LeftRotate</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>, index + 1);</div>
+<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;                            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;                        }</div>
+<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;                    }</div>
+<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160; </div>
+<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;                    <span class="comment">// we do a merge. We avoid merging the target item, which</span></div>
+<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;                    <span class="comment">// may trigger another merge in the recursion process.</span></div>
+<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;                    <span class="keywordflow">if</span> (index &gt; 0) {</div>
+<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;                        <a class="code" href="../../db/d25/class_tree234.html#ae3ff8c703d85c4c5d0abd13c08c72151">Merge</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>, index - 1);</div>
+<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;                    }</div>
+<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160; </div>
+<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;                    <a class="code" href="../../db/d25/class_tree234.html#ae3ff8c703d85c4c5d0abd13c08c72151">Merge</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>, index + 1);</div>
+<div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160; </div>
+<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;                } <span class="keywordflow">while</span> (<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;            }</div>
+<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160; </div>
+<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;            <span class="comment">// refresh the left_child and right_child since they may be invalid</span></div>
+<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;            <span class="comment">// because of merge</span></div>
+<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;            left_child = <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemLeftChild(index);</div>
+<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;            right_child = <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemRightChild(index);</div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160; </div>
+<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;            <span class="keywordflow">if</span> (left_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#ae4c28fa9b7efdb560563104fcb9dfb45">Is34Node</a>()) {</div>
+<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;                <span class="keywordtype">int</span> predecessor_item = <a class="code" href="../../db/d25/class_tree234.html#a75fde49a2a57da1f234361181ea78183">GetTreeMaxItem</a>(left_child);</div>
+<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;                <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;SetItem(<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemIndex(item), predecessor_item);</div>
+<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160; </div>
+<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;                <a class="code" href="../../d5/da1/structnode.html">node</a> = left_child;</div>
+<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;                item = predecessor_item;</div>
+<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;            }</div>
+<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160; </div>
+<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;            <span class="keywordflow">if</span> (right_child-&gt;<a class="code" href="../../db/d8b/struct_node.html#ae4c28fa9b7efdb560563104fcb9dfb45">Is34Node</a>()) {</div>
+<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;                <span class="keywordtype">int</span> successor_item = <a class="code" href="../../db/d25/class_tree234.html#a66c20ef9cefbe058bdfc3e49180ef77d">GetTreeMinItem</a>(right_child);</div>
+<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;                <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;SetItem(<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItemIndex(item), successor_item);</div>
+<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;                <a class="code" href="../../d5/da1/structnode.html">node</a> = right_child;</div>
+<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;                item = successor_item;</div>
+<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;            }</div>
+<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;        }</div>
+<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160; </div>
+<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;        <a class="code" href="../../db/d8b/struct_node.html">Node</a> *next_node = <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetNextPossibleChild(item);</div>
+<div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160; </div>
+<div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;        <span class="keywordflow">if</span> (next_node-&gt;<a class="code" href="../../db/d8b/struct_node.html#ae4c28fa9b7efdb560563104fcb9dfb45">Is34Node</a>()) {</div>
+<div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;            <a class="code" href="../../d5/da1/structnode.html">node</a> = next_node;</div>
+<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;        }</div>
+<div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160; </div>
+<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../db/d25/class_tree234.html#added89278e7bb87417a73918682a985e">TryRightRotate</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>, next_node)) {</div>
+<div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;            <a class="code" href="../../d5/da1/structnode.html">node</a> = next_node;</div>
+<div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;        }</div>
+<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160; </div>
+<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../db/d25/class_tree234.html#ad5b21cf04d1fab3d088ac00582c521c7">TryLeftRotate</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>, next_node)) {</div>
+<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;            <a class="code" href="../../d5/da1/structnode.html">node</a> = next_node;</div>
+<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;        }</div>
+<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160; </div>
+<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;        <span class="comment">// get here means both left sibling and right sibling of next_node is</span></div>
+<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;        <span class="comment">// 2-node, so we do merge</span></div>
+<div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;        <span class="keywordtype">int</span> child_index = <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetChildIndex(next_node);</div>
+<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;        <span class="keywordflow">if</span> (child_index &gt; 0) {</div>
+<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;            <a class="code" href="../../d5/da1/structnode.html">node</a> = <a class="code" href="../../db/d25/class_tree234.html#ae3ff8c703d85c4c5d0abd13c08c72151">Merge</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>, child_index - 1);</div>
+<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;            <a class="code" href="../../d5/da1/structnode.html">node</a> = <a class="code" href="../../db/d25/class_tree234.html#ae3ff8c703d85c4c5d0abd13c08c72151">Merge</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>, child_index);</div>
+<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;        }</div>
+<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160; </div>
+<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;    }  <span class="comment">// while</span></div>
+<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160; </div>
+<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -848,18 +848,18 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="fragment"><div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;                                                 {</div>
-<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a> = parent-&gt;GetItemLeftChild(index);</div>
-<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a> = parent-&gt;GetItemRightChild(index);</div>
-<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160; </div>
-<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;    assert(left &amp;&amp; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a>-&gt;Is34Node());</div>
-<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;    assert(right &amp;&amp; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a>-&gt;Is2Node());</div>
-<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160; </div>
-<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a>-&gt;InsertItemByIndex(0, parent-&gt;GetItem(index),</div>
-<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;                             <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a>-&gt;GetRightmostChild(), <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;    parent-&gt;SetItem(index, <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a>-&gt;GetMaxItem());</div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a>-&gt;RemoveItemByIndex(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a>-&gt;GetCount() - 1, <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;                                                 {</div>
+<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a> = parent-&gt;GetItemLeftChild(index);</div>
+<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a> = parent-&gt;GetItemRightChild(index);</div>
+<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160; </div>
+<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;    assert(left &amp;&amp; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a>-&gt;Is34Node());</div>
+<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;    assert(right &amp;&amp; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a>-&gt;Is2Node());</div>
+<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160; </div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a>-&gt;InsertItemByIndex(0, parent-&gt;GetItem(index),</div>
+<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;                             <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a>-&gt;GetRightmostChild(), <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;    parent-&gt;SetItem(index, <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a>-&gt;GetMaxItem());</div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a>-&gt;RemoveItemByIndex(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a>-&gt;GetCount() - 1, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -895,23 +895,23 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>return the split parent node </dd></dl>
-<div class="fragment"><div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;                                   {</div>
-<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;    assert(<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetCount() == 3);</div>
-<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160; </div>
-<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a> = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a8ca8dcb494104d273679e219e53d0555">node</a>;</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160; </div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a> = <span class="keyword">new</span> <a class="code" href="../../db/d8b/struct_node.html">Node</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItem(2));</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a>-&gt;SetChild(0, <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetChild(2));</div>
-<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a>-&gt;SetChild(1, <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetChild(3));</div>
-<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160; </div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *parent = <span class="keyword">new</span> <a class="code" href="../../db/d8b/struct_node.html">Node</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItem(1));</div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;    parent-&gt;SetChild(0, left);</div>
-<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;    parent-&gt;SetChild(1, right);</div>
-<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160; </div>
-<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a>-&gt;SetCount(1);</div>
-<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160; </div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;    <span class="keywordflow">return</span> parent;</div>
-<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;                                   {</div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;    assert(<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetCount() == 3);</div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160; </div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a> = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a8ca8dcb494104d273679e219e53d0555">node</a>;</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160; </div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a> = <span class="keyword">new</span> <a class="code" href="../../db/d8b/struct_node.html">Node</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItem(2));</div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a>-&gt;SetChild(0, <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetChild(2));</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">right</a>-&gt;SetChild(1, <a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetChild(3));</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160; </div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *parent = <span class="keyword">new</span> <a class="code" href="../../db/d8b/struct_node.html">Node</a>(<a class="code" href="../../d5/da1/structnode.html">node</a>-&gt;GetItem(1));</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;    parent-&gt;SetChild(0, left);</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    parent-&gt;SetChild(1, right);</div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160; </div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/left.html">left</a>-&gt;SetCount(1);</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160; </div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;    <span class="keywordflow">return</span> parent;</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -959,25 +959,25 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>return true if we successfully do the rotate. false if the requirements are not fulfilled. </dd></dl>
-<div class="fragment"><div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;                                                        {</div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;    <span class="keywordtype">int</span> to_child_index = parent-&gt;GetChildIndex(to_child);</div>
-<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160; </div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;    <span class="comment">// child is right most, can not do left rotate to it</span></div>
-<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;    <span class="keywordflow">if</span> (to_child_index &gt;= parent-&gt;GetCount()) {</div>
-<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;    }</div>
-<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160; </div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *right_sibling = parent-&gt;GetChild(to_child_index + 1);</div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160; </div>
-<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;    <span class="comment">// right sibling is 2-node. can not do left rotate.</span></div>
-<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;    <span class="keywordflow">if</span> (right_sibling-&gt;<a class="code" href="../../db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c">Is2Node</a>()) {</div>
-<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;    }</div>
-<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160; </div>
-<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;    <a class="code" href="../../db/d25/class_tree234.html#ab3733ff7bf637266d77820a49d4999bc">LeftRotate</a>(parent, to_child_index);</div>
-<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160; </div>
-<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;                                                        {</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;    <span class="keywordtype">int</span> to_child_index = parent-&gt;GetChildIndex(to_child);</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160; </div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;    <span class="comment">// child is right most, can not do left rotate to it</span></div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;    <span class="keywordflow">if</span> (to_child_index &gt;= parent-&gt;GetCount()) {</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;    }</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160; </div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *right_sibling = parent-&gt;GetChild(to_child_index + 1);</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160; </div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;    <span class="comment">// right sibling is 2-node. can not do left rotate.</span></div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;    <span class="keywordflow">if</span> (right_sibling-&gt;<a class="code" href="../../db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c">Is2Node</a>()) {</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;    }</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160; </div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;    <a class="code" href="../../db/d25/class_tree234.html#ab3733ff7bf637266d77820a49d4999bc">LeftRotate</a>(parent, to_child_index);</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160; </div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1031,25 +1031,25 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>return true if we successfully do the rotate. false if the requirements are not fulfilled. </dd></dl>
-<div class="fragment"><div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;                                                         {</div>
-<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;    <span class="keywordtype">int</span> to_child_index = parent-&gt;GetChildIndex(to_child);</div>
-<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160; </div>
-<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;    <span class="comment">// child is left most, can not do right rotate to it</span></div>
-<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;    <span class="keywordflow">if</span> (to_child_index &lt;= 0) {</div>
-<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;    }</div>
-<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160; </div>
-<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *left_sibling = parent-&gt;GetChild(to_child_index - 1);</div>
-<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160; </div>
-<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;    <span class="comment">// right sibling is 2-node. can not do left rotate.</span></div>
-<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;    <span class="keywordflow">if</span> (left_sibling-&gt;<a class="code" href="../../db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c">Is2Node</a>()) {</div>
-<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;    }</div>
-<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160; </div>
-<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;    <a class="code" href="../../db/d25/class_tree234.html#a59494707db877098d0ffb770437d6a10">RightRotate</a>(parent, to_child_index - 1);</div>
-<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160; </div>
-<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;                                                         {</div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;    <span class="keywordtype">int</span> to_child_index = parent-&gt;GetChildIndex(to_child);</div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160; </div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;    <span class="comment">// child is left most, can not do right rotate to it</span></div>
+<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;    <span class="keywordflow">if</span> (to_child_index &lt;= 0) {</div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;    }</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160; </div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;    <a class="code" href="../../db/d8b/struct_node.html">Node</a> *left_sibling = parent-&gt;GetChild(to_child_index - 1);</div>
+<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160; </div>
+<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;    <span class="comment">// right sibling is 2-node. can not do left rotate.</span></div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;    <span class="keywordflow">if</span> (left_sibling-&gt;<a class="code" href="../../db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c">Is2Node</a>()) {</div>
+<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;    }</div>
+<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160; </div>
+<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;    <a class="code" href="../../db/d25/class_tree234.html#a59494707db877098d0ffb770437d6a10">RightRotate</a>(parent, to_child_index - 1);</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160; </div>
+<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1064,35 +1064,35 @@ Here is the call graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="astruct_node_html_ae4c28fa9b7efdb560563104fcb9dfb45"><div class="ttname"><a href="../../db/d8b/struct_node.html#ae4c28fa9b7efdb560563104fcb9dfb45">Node::Is34Node</a></div><div class="ttdeci">bool Is34Node()</div><div class="ttdoc">check if node is a 3-node or 4-node, this is useful when we delete item from 2-3-4 tree</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:46</div></div>
-<div class="ttc" id="astruct_node_html_a477404e67bd9114bf8203b47e2a2db20"><div class="ttname"><a href="../../db/d8b/struct_node.html#a477404e67bd9114bf8203b47e2a2db20">Node::InsertItem</a></div><div class="ttdeci">int InsertItem(int item)</div><div class="ttdoc">insert item to the proper position of the node and return the position index.</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:118</div></div>
-<div class="ttc" id="aclass_tree234_html_a66c20ef9cefbe058bdfc3e49180ef77d"><div class="ttname"><a href="../../db/d25/class_tree234.html#a66c20ef9cefbe058bdfc3e49180ef77d">Tree234::GetTreeMinItem</a></div><div class="ttdeci">int GetTreeMinItem(Node *tree)</div><div class="ttdoc">get the min item of the tree</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:903</div></div>
-<div class="ttc" id="astruct_node_html_a1e2c6a52b704f81caced187e5dc7735e"><div class="ttname"><a href="../../db/d8b/struct_node.html#a1e2c6a52b704f81caced187e5dc7735e">Node::GetRightmostChild</a></div><div class="ttdeci">Node * GetRightmostChild()</div><div class="ttdoc">get rightmose child of the current node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:217</div></div>
-<div class="ttc" id="astruct_node_html_a711e6d7e2c0318df0842e0caad4cad05"><div class="ttname"><a href="../../db/d8b/struct_node.html#a711e6d7e2c0318df0842e0caad4cad05">Node::GetItem</a></div><div class="ttdeci">int GetItem(int index)</div><div class="ttdoc">get item of the \index index</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:88</div></div>
+<div class="ttc" id="astruct_node_html_ae4c28fa9b7efdb560563104fcb9dfb45"><div class="ttname"><a href="../../db/d8b/struct_node.html#ae4c28fa9b7efdb560563104fcb9dfb45">Node::Is34Node</a></div><div class="ttdeci">bool Is34Node()</div><div class="ttdoc">check if node is a 3-node or 4-node, this is useful when we delete item from 2-3-4 tree</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:47</div></div>
+<div class="ttc" id="astruct_node_html_a477404e67bd9114bf8203b47e2a2db20"><div class="ttname"><a href="../../db/d8b/struct_node.html#a477404e67bd9114bf8203b47e2a2db20">Node::InsertItem</a></div><div class="ttdeci">int InsertItem(int item)</div><div class="ttdoc">insert item to the proper position of the node and return the position index.</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:119</div></div>
+<div class="ttc" id="aclass_tree234_html_a66c20ef9cefbe058bdfc3e49180ef77d"><div class="ttname"><a href="../../db/d25/class_tree234.html#a66c20ef9cefbe058bdfc3e49180ef77d">Tree234::GetTreeMinItem</a></div><div class="ttdeci">int GetTreeMinItem(Node *tree)</div><div class="ttdoc">get the min item of the tree</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:904</div></div>
+<div class="ttc" id="astruct_node_html_a1e2c6a52b704f81caced187e5dc7735e"><div class="ttname"><a href="../../db/d8b/struct_node.html#a1e2c6a52b704f81caced187e5dc7735e">Node::GetRightmostChild</a></div><div class="ttdeci">Node * GetRightmostChild()</div><div class="ttdoc">get rightmose child of the current node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:218</div></div>
+<div class="ttc" id="astruct_node_html_a711e6d7e2c0318df0842e0caad4cad05"><div class="ttname"><a href="../../db/d8b/struct_node.html#a711e6d7e2c0318df0842e0caad4cad05">Node::GetItem</a></div><div class="ttdeci">int GetItem(int index)</div><div class="ttdoc">get item of the \index index</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:89</div></div>
 <div class="ttc" id="astructnode_html"><div class="ttname"><a href="../../d5/da1/structnode.html">node</a></div><div class="ttdef"><b>Definition:</b> avltree.cpp:13</div></div>
 <div class="ttc" id="ahash__search_8cpp_html_a8ca8dcb494104d273679e219e53d0555"><div class="ttname"><a href="../../d1/df3/hash__search_8cpp.html#a8ca8dcb494104d273679e219e53d0555">node</a></div><div class="ttdeci">struct list node</div></div>
-<div class="ttc" id="aclass_tree234_html_ad5b21cf04d1fab3d088ac00582c521c7"><div class="ttname"><a href="../../db/d25/class_tree234.html#ad5b21cf04d1fab3d088ac00582c521c7">Tree234::TryLeftRotate</a></div><div class="ttdeci">bool TryLeftRotate(Node *parent, Node *to_child)</div><div class="ttdoc">a handy function to try if we can do a left rotate to the target node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:630</div></div>
-<div class="ttc" id="aclass_tree234_html_ab3733ff7bf637266d77820a49d4999bc"><div class="ttname"><a href="../../db/d25/class_tree234.html#ab3733ff7bf637266d77820a49d4999bc">Tree234::LeftRotate</a></div><div class="ttdeci">void LeftRotate(Node *parent, int index)</div><div class="ttdoc">do the actual left rotate operation</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:683</div></div>
+<div class="ttc" id="aclass_tree234_html_ad5b21cf04d1fab3d088ac00582c521c7"><div class="ttname"><a href="../../db/d25/class_tree234.html#ad5b21cf04d1fab3d088ac00582c521c7">Tree234::TryLeftRotate</a></div><div class="ttdeci">bool TryLeftRotate(Node *parent, Node *to_child)</div><div class="ttdoc">a handy function to try if we can do a left rotate to the target node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:631</div></div>
+<div class="ttc" id="aclass_tree234_html_ab3733ff7bf637266d77820a49d4999bc"><div class="ttname"><a href="../../db/d25/class_tree234.html#ab3733ff7bf637266d77820a49d4999bc">Tree234::LeftRotate</a></div><div class="ttdeci">void LeftRotate(Node *parent, int index)</div><div class="ttdoc">do the actual left rotate operation</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:684</div></div>
 <div class="ttc" id="astruct_node_html"><div class="ttname"><a href="../../db/d8b/struct_node.html">Node</a></div><div class="ttdoc">2-3-4 tree node class</div><div class="ttdef"><b>Definition:</b> linkedlist_implentation_usingarray.cpp:14</div></div>
-<div class="ttc" id="astruct_node_html_a40a68c94b39a93cfbcfbf3c9a34a110c"><div class="ttname"><a href="../../db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c">Node::SetChild</a></div><div class="ttdeci">void SetChild(int index, Node *child)</div><div class="ttdoc">set child pointer to the position of index</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:214</div></div>
-<div class="ttc" id="aclass_tree234_html_a35185c3121306ea57172cc7d658d3979"><div class="ttname"><a href="../../db/d25/class_tree234.html#a35185c3121306ea57172cc7d658d3979">Tree234::root_</a></div><div class="ttdeci">Node * root_</div><div class="ttdoc">root node of the tree</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:456</div></div>
-<div class="ttc" id="aclass_tree234_html_a5ceb8cd694a3edb6e70ed3dd54ee4521"><div class="ttname"><a href="../../db/d25/class_tree234.html#a5ceb8cd694a3edb6e70ed3dd54ee4521">Tree234::MergeNodeNotFull</a></div><div class="ttdeci">void MergeNodeNotFull(Node *dst_node, Node *node)</div><div class="ttdoc">merge node to a not-full target node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:602</div></div>
-<div class="ttc" id="aclass_tree234_html_added89278e7bb87417a73918682a985e"><div class="ttname"><a href="../../db/d25/class_tree234.html#added89278e7bb87417a73918682a985e">Tree234::TryRightRotate</a></div><div class="ttdeci">bool TryRightRotate(Node *parent, Node *to_child)</div><div class="ttdoc">a handy function to try if we can do a right rotate to the target node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:650</div></div>
+<div class="ttc" id="astruct_node_html_a40a68c94b39a93cfbcfbf3c9a34a110c"><div class="ttname"><a href="../../db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c">Node::SetChild</a></div><div class="ttdeci">void SetChild(int index, Node *child)</div><div class="ttdoc">set child pointer to the position of index</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:215</div></div>
+<div class="ttc" id="aclass_tree234_html_a35185c3121306ea57172cc7d658d3979"><div class="ttname"><a href="../../db/d25/class_tree234.html#a35185c3121306ea57172cc7d658d3979">Tree234::root_</a></div><div class="ttdeci">Node * root_</div><div class="ttdoc">root node of the tree</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:457</div></div>
+<div class="ttc" id="aclass_tree234_html_a5ceb8cd694a3edb6e70ed3dd54ee4521"><div class="ttname"><a href="../../db/d25/class_tree234.html#a5ceb8cd694a3edb6e70ed3dd54ee4521">Tree234::MergeNodeNotFull</a></div><div class="ttdeci">void MergeNodeNotFull(Node *dst_node, Node *node)</div><div class="ttdoc">merge node to a not-full target node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:603</div></div>
+<div class="ttc" id="aclass_tree234_html_added89278e7bb87417a73918682a985e"><div class="ttname"><a href="../../db/d25/class_tree234.html#added89278e7bb87417a73918682a985e">Tree234::TryRightRotate</a></div><div class="ttdeci">bool TryRightRotate(Node *parent, Node *to_child)</div><div class="ttdoc">a handy function to try if we can do a right rotate to the target node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:651</div></div>
 <div class="ttc" id="amin_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/algorithm/min.html">std::min</a></div><div class="ttdeci">T min(T... args)</div></div>
-<div class="ttc" id="aclass_tree234_html_a59494707db877098d0ffb770437d6a10"><div class="ttname"><a href="../../db/d25/class_tree234.html#a59494707db877098d0ffb770437d6a10">Tree234::RightRotate</a></div><div class="ttdeci">void RightRotate(Node *parent, int index)</div><div class="ttdoc">do the actual right rotate operation</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:670</div></div>
-<div class="ttc" id="aclass_tree234_html_a75fde49a2a57da1f234361181ea78183"><div class="ttname"><a href="../../db/d25/class_tree234.html#a75fde49a2a57da1f234361181ea78183">Tree234::GetTreeMaxItem</a></div><div class="ttdeci">int GetTreeMaxItem(Node *tree)</div><div class="ttdoc">get the max item of the tree</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:891</div></div>
+<div class="ttc" id="aclass_tree234_html_a59494707db877098d0ffb770437d6a10"><div class="ttname"><a href="../../db/d25/class_tree234.html#a59494707db877098d0ffb770437d6a10">Tree234::RightRotate</a></div><div class="ttdeci">void RightRotate(Node *parent, int index)</div><div class="ttdoc">do the actual right rotate operation</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:671</div></div>
+<div class="ttc" id="aclass_tree234_html_a75fde49a2a57da1f234361181ea78183"><div class="ttname"><a href="../../db/d25/class_tree234.html#a75fde49a2a57da1f234361181ea78183">Tree234::GetTreeMaxItem</a></div><div class="ttdeci">int GetTreeMaxItem(Node *tree)</div><div class="ttdoc">get the max item of the tree</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:892</div></div>
 <div class="ttc" id="aleft_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/manip/left.html">std::left</a></div><div class="ttdeci">T left(T... args)</div></div>
-<div class="ttc" id="astruct_node_html_a9b1b0f38e06f2be2f3287f737882d422"><div class="ttname"><a href="../../db/d8b/struct_node.html#a9b1b0f38e06f2be2f3287f737882d422">Node::GetMaxItem</a></div><div class="ttdeci">int GetMaxItem()</div><div class="ttdoc">get max item (rightmost) in the current node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:78</div></div>
-<div class="ttc" id="astruct_node_html_a2850fd257fe00ea2e1539325db18947c"><div class="ttname"><a href="../../db/d8b/struct_node.html#a2850fd257fe00ea2e1539325db18947c">Node::SetItem</a></div><div class="ttdeci">void SetItem(int index, int new_item)</div><div class="ttdoc">set item value at position of index</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:95</div></div>
-<div class="ttc" id="astruct_node_html_a3cbce1931da13d8db8f1d350ae841db5"><div class="ttname"><a href="../../db/d8b/struct_node.html#a3cbce1931da13d8db8f1d350ae841db5">Node::GetMinItem</a></div><div class="ttdeci">int GetMinItem()</div><div class="ttdoc">get min item (leftmost) in the current node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:81</div></div>
-<div class="ttc" id="astruct_node_html_a5cb5234ccefa82c8cc49842898131cb6"><div class="ttname"><a href="../../db/d8b/struct_node.html#a5cb5234ccefa82c8cc49842898131cb6">Node::IsFull</a></div><div class="ttdeci">bool IsFull()</div><div class="ttdoc">check if node is a full (4-node)</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:39</div></div>
-<div class="ttc" id="astruct_node_html_ab5fbabd89ce8e89ccaa9e7371bc37a3d"><div class="ttname"><a href="../../db/d8b/struct_node.html#ab5fbabd89ce8e89ccaa9e7371bc37a3d">Node::SetCount</a></div><div class="ttdeci">void SetCount(int c)</div><div class="ttdoc">set the item count of the node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:31</div></div>
+<div class="ttc" id="astruct_node_html_a9b1b0f38e06f2be2f3287f737882d422"><div class="ttname"><a href="../../db/d8b/struct_node.html#a9b1b0f38e06f2be2f3287f737882d422">Node::GetMaxItem</a></div><div class="ttdeci">int GetMaxItem()</div><div class="ttdoc">get max item (rightmost) in the current node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:79</div></div>
+<div class="ttc" id="astruct_node_html_a2850fd257fe00ea2e1539325db18947c"><div class="ttname"><a href="../../db/d8b/struct_node.html#a2850fd257fe00ea2e1539325db18947c">Node::SetItem</a></div><div class="ttdeci">void SetItem(int index, int new_item)</div><div class="ttdoc">set item value at position of index</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:96</div></div>
+<div class="ttc" id="astruct_node_html_a3cbce1931da13d8db8f1d350ae841db5"><div class="ttname"><a href="../../db/d8b/struct_node.html#a3cbce1931da13d8db8f1d350ae841db5">Node::GetMinItem</a></div><div class="ttdeci">int GetMinItem()</div><div class="ttdoc">get min item (leftmost) in the current node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:82</div></div>
+<div class="ttc" id="astruct_node_html_a5cb5234ccefa82c8cc49842898131cb6"><div class="ttname"><a href="../../db/d8b/struct_node.html#a5cb5234ccefa82c8cc49842898131cb6">Node::IsFull</a></div><div class="ttdeci">bool IsFull()</div><div class="ttdoc">check if node is a full (4-node)</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:40</div></div>
+<div class="ttc" id="astruct_node_html_ab5fbabd89ce8e89ccaa9e7371bc37a3d"><div class="ttname"><a href="../../db/d8b/struct_node.html#ab5fbabd89ce8e89ccaa9e7371bc37a3d">Node::SetCount</a></div><div class="ttdeci">void SetCount(int c)</div><div class="ttdoc">set the item count of the node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:32</div></div>
 <div class="ttc" id="amax_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/algorithm/max.html">std::max</a></div><div class="ttdeci">T max(T... args)</div></div>
-<div class="ttc" id="astruct_node_html_a6e5f4f2091b10b1821b655fde157a74c"><div class="ttname"><a href="../../db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c">Node::Is2Node</a></div><div class="ttdeci">bool Is2Node()</div><div class="ttdoc">check if node is a 2-node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:42</div></div>
-<div class="ttc" id="astruct_node_html_aa1b7794370f98b1e5b5b8190ea7d7b67"><div class="ttname"><a href="../../db/d8b/struct_node.html#aa1b7794370f98b1e5b5b8190ea7d7b67">Node::GetLeftmostChild</a></div><div class="ttdeci">Node * GetLeftmostChild()</div><div class="ttdoc">get leftmose child of the current node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:220</div></div>
-<div class="ttc" id="aclass_tree234_html_ae36a2684ad2d5cea087cbb5c7d94e96c"><div class="ttname"><a href="../../db/d25/class_tree234.html#ae36a2684ad2d5cea087cbb5c7d94e96c">Tree234::SplitNode</a></div><div class="ttdeci">Node * SplitNode(Node *node)</div><div class="ttdoc">split a 4-node to 1 parent and 2 children, and return the parent node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:612</div></div>
-<div class="ttc" id="aclass_tree234_html_ae3ff8c703d85c4c5d0abd13c08c72151"><div class="ttname"><a href="../../db/d25/class_tree234.html#ae3ff8c703d85c4c5d0abd13c08c72151">Tree234::Merge</a></div><div class="ttdeci">Node * Merge(Node *parent, int index)</div><div class="ttdoc">merge the item at index of the parent node, and its left and right child</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:696</div></div>
-<div class="ttc" id="astruct_node_html_aec3cbfe34973f0752071599afe34939b"><div class="ttname"><a href="../../db/d8b/struct_node.html#aec3cbfe34973f0752071599afe34939b">Node::GetChild</a></div><div class="ttdeci">Node * GetChild(int index)</div><div class="ttdoc">get the child pointer at position of index</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:207</div></div>
+<div class="ttc" id="astruct_node_html_a6e5f4f2091b10b1821b655fde157a74c"><div class="ttname"><a href="../../db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c">Node::Is2Node</a></div><div class="ttdeci">bool Is2Node()</div><div class="ttdoc">check if node is a 2-node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:43</div></div>
+<div class="ttc" id="astruct_node_html_aa1b7794370f98b1e5b5b8190ea7d7b67"><div class="ttname"><a href="../../db/d8b/struct_node.html#aa1b7794370f98b1e5b5b8190ea7d7b67">Node::GetLeftmostChild</a></div><div class="ttdeci">Node * GetLeftmostChild()</div><div class="ttdoc">get leftmose child of the current node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:221</div></div>
+<div class="ttc" id="aclass_tree234_html_ae36a2684ad2d5cea087cbb5c7d94e96c"><div class="ttname"><a href="../../db/d25/class_tree234.html#ae36a2684ad2d5cea087cbb5c7d94e96c">Tree234::SplitNode</a></div><div class="ttdeci">Node * SplitNode(Node *node)</div><div class="ttdoc">split a 4-node to 1 parent and 2 children, and return the parent node</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:613</div></div>
+<div class="ttc" id="aclass_tree234_html_ae3ff8c703d85c4c5d0abd13c08c72151"><div class="ttname"><a href="../../db/d25/class_tree234.html#ae3ff8c703d85c4c5d0abd13c08c72151">Tree234::Merge</a></div><div class="ttdeci">Node * Merge(Node *parent, int index)</div><div class="ttdoc">merge the item at index of the parent node, and its left and right child</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:697</div></div>
+<div class="ttc" id="astruct_node_html_aec3cbfe34973f0752071599afe34939b"><div class="ttname"><a href="../../db/d8b/struct_node.html#aec3cbfe34973f0752071599afe34939b">Node::GetChild</a></div><div class="ttdeci">Node * GetChild(int index)</div><div class="ttdoc">get the child pointer at position of index</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:208</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
