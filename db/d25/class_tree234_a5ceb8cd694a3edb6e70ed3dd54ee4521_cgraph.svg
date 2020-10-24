@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="merge node to a not&#45;full target node">
+<g id="a_node1"><a xlink:title="Merge node to a not&#45;full target node.">
 <polygon fill="#bfbfbf" stroke="black" points="0,-38.5 0,-57.5 140,-57.5 140,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="70" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::MergeNodeNotFull</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../db/d8b/struct_node.html#a477404e67bd9114bf8203b47e2a2db20" target="_top" xlink:title="insert item to the proper position of the node and return the position index.">
+<g id="a_node2"><a xlink:href="../../db/d8b/struct_node.html#a477404e67bd9114bf8203b47e2a2db20" target="_top" xlink:title="Insert item to the proper position of the node and return the position index.">
 <polygon fill="white" stroke="black" points="176,-76.5 176,-95.5 266,-95.5 266,-76.5 176,-76.5"/>
 <text text-anchor="middle" x="221" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::InsertItem</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../db/d8b/struct_node.html#a5cb5234ccefa82c8cc49842898131cb6" target="_top" xlink:title="check if node is a full (4&#45;node)">
+<g id="a_node5"><a xlink:href="../../db/d8b/struct_node.html#a5cb5234ccefa82c8cc49842898131cb6" target="_top" xlink:title="Check if node is a full (4&#45;node)">
 <polygon fill="white" stroke="black" points="330,-38.5 330,-57.5 400,-57.5 400,-38.5 330,-38.5"/>
 <text text-anchor="middle" x="365" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::IsFull</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c" target="_top" xlink:title="set child pointer to the position of index">
+<g id="a_node6"><a xlink:href="../../db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c" target="_top" xlink:title="Set child pointer to the position of index.">
 <polygon fill="white" stroke="black" points="179.5,-0.5 179.5,-19.5 262.5,-19.5 262.5,-0.5 179.5,-0.5"/>
 <text text-anchor="middle" x="221" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::SetChild</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../db/d8b/struct_node.html#a13b876e390596e7fef1f914be83c9168" target="_top" xlink:title="check if item is in the node">
+<g id="a_node3"><a xlink:href="../../db/d8b/struct_node.html#a13b876e390596e7fef1f914be83c9168" target="_top" xlink:title="Check if item is in the node.">
 <polygon fill="white" stroke="black" points="322.5,-114.5 322.5,-133.5 407.5,-133.5 407.5,-114.5 322.5,-114.5"/>
 <text text-anchor="middle" x="365" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::Contains</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../db/d8b/struct_node.html#a239621c6f62988c5d50d2c84892f5be9" target="_top" xlink:title="insert a value to the index position">
+<g id="a_node4"><a xlink:href="../../db/d8b/struct_node.html#a239621c6f62988c5d50d2c84892f5be9" target="_top" xlink:title="Insert a value to the index position.">
 <polygon fill="white" stroke="black" points="302,-76.5 302,-95.5 428,-95.5 428,-76.5 302,-76.5"/>
 <text text-anchor="middle" x="365" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::InsertItemByIndex</text>
 </a>

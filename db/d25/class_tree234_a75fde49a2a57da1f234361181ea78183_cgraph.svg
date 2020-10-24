@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="get the max item of the tree">
+<g id="a_node1"><a xlink:title="Get the max item of the tree.">
 <polygon fill="#bfbfbf" stroke="black" points="0,-19.5 0,-38.5 131,-38.5 131,-19.5 0,-19.5"/>
 <text text-anchor="middle" x="65.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::GetTreeMaxItem</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../db/d8b/struct_node.html#a9b1b0f38e06f2be2f3287f737882d422" target="_top" xlink:title="get max item (rightmost) in the current node">
+<g id="a_node2"><a xlink:href="../../db/d8b/struct_node.html#a9b1b0f38e06f2be2f3287f737882d422" target="_top" xlink:title="Get max item (rightmost) in the current node.">
 <polygon fill="white" stroke="black" points="181.5,-38.5 181.5,-57.5 281.5,-57.5 281.5,-38.5 181.5,-38.5"/>
 <text text-anchor="middle" x="231.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::GetMaxItem</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../db/d8b/struct_node.html#a1e2c6a52b704f81caced187e5dc7735e" target="_top" xlink:title="get rightmose child of the current node">
+<g id="a_node3"><a xlink:href="../../db/d8b/struct_node.html#a1e2c6a52b704f81caced187e5dc7735e" target="_top" xlink:title="Get rightmose child of the current node.">
 <polygon fill="white" stroke="black" points="167,-0.5 167,-19.5 296,-19.5 296,-0.5 167,-0.5"/>
 <text text-anchor="middle" x="231.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::GetRightmostChild</text>
 </a>

@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="insert item to the proper position of the node and return the position index.">
+<g id="a_node1"><a xlink:title="Insert item to the proper position of the node and return the position index.">
 <polygon fill="#bfbfbf" stroke="black" points="0,-38.5 0,-57.5 90,-57.5 90,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="45" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::InsertItem</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../db/d8b/struct_node.html#a13b876e390596e7fef1f914be83c9168" target="_top" xlink:title="check if item is in the node">
+<g id="a_node2"><a xlink:href="../../db/d8b/struct_node.html#a13b876e390596e7fef1f914be83c9168" target="_top" xlink:title="Check if item is in the node.">
 <polygon fill="white" stroke="black" points="146.5,-76.5 146.5,-95.5 231.5,-95.5 231.5,-76.5 146.5,-76.5"/>
 <text text-anchor="middle" x="189" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::Contains</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../db/d8b/struct_node.html#a239621c6f62988c5d50d2c84892f5be9" target="_top" xlink:title="insert a value to the index position">
+<g id="a_node3"><a xlink:href="../../db/d8b/struct_node.html#a239621c6f62988c5d50d2c84892f5be9" target="_top" xlink:title="Insert a value to the index position.">
 <polygon fill="white" stroke="black" points="126,-38.5 126,-57.5 252,-57.5 252,-38.5 126,-38.5"/>
 <text text-anchor="middle" x="189" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::InsertItemByIndex</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../db/d8b/struct_node.html#a5cb5234ccefa82c8cc49842898131cb6" target="_top" xlink:title="check if node is a full (4&#45;node)">
+<g id="a_node4"><a xlink:href="../../db/d8b/struct_node.html#a5cb5234ccefa82c8cc49842898131cb6" target="_top" xlink:title="Check if node is a full (4&#45;node)">
 <polygon fill="white" stroke="black" points="154,-0.5 154,-19.5 224,-19.5 224,-0.5 154,-0.5"/>
 <text text-anchor="middle" x="189" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::IsFull</text>
 </a>

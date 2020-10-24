@@ -1,0 +1,4 @@
+<map id="Tree234::Print" name="Tree234::Print">
+<area shape="rect" id="node1" title="Print tree into a dot file, so we can easily check the result. if file_name is nullptr default is &quot;ou..." alt="" coords="5,5,109,32"/>
+<area shape="rect" id="node2" href="$db/d25/class_tree234.html#abf8ef706486c6d55c7bf0b85f8b19148" title="Print the tree to a dot file. You can convert it to picture with graphviz." alt="" coords="157,5,292,32"/>
+</map>

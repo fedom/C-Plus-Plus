@@ -1,8 +1,8 @@
 <map id="Tree234::MergeNodeNotFull" name="Tree234::MergeNodeNotFull">
-<area shape="rect" id="node1" title="merge node to a not&#45;full target node" alt="" coords="5,107,192,133"/>
-<area shape="rect" id="node2" href="$db/d8b/struct_node.html#a477404e67bd9114bf8203b47e2a2db20" title="insert item to the proper position of the node and return the position index." alt="" coords="240,56,360,83"/>
-<area shape="rect" id="node5" href="$db/d8b/struct_node.html#a5cb5234ccefa82c8cc49842898131cb6" title="check if node is a full (4&#45;node)" alt="" coords="445,107,539,133"/>
-<area shape="rect" id="node6" href="$db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c" title="set child pointer to the position of index" alt="" coords="245,157,355,184"/>
-<area shape="rect" id="node3" href="$db/d8b/struct_node.html#a13b876e390596e7fef1f914be83c9168" title="check if item is in the node" alt="" coords="435,5,549,32"/>
-<area shape="rect" id="node4" href="$db/d8b/struct_node.html#a239621c6f62988c5d50d2c84892f5be9" title="insert a value to the index position" alt="" coords="408,56,576,83"/>
+<area shape="rect" id="node1" title="Merge node to a not&#45;full target node." alt="" coords="5,107,192,133"/>
+<area shape="rect" id="node2" href="$db/d8b/struct_node.html#a477404e67bd9114bf8203b47e2a2db20" title="Insert item to the proper position of the node and return the position index." alt="" coords="240,56,360,83"/>
+<area shape="rect" id="node5" href="$db/d8b/struct_node.html#a5cb5234ccefa82c8cc49842898131cb6" title="Check if node is a full (4&#45;node)" alt="" coords="445,107,539,133"/>
+<area shape="rect" id="node6" href="$db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c" title="Set child pointer to the position of index." alt="" coords="245,157,355,184"/>
+<area shape="rect" id="node3" href="$db/d8b/struct_node.html#a13b876e390596e7fef1f914be83c9168" title="Check if item is in the node." alt="" coords="435,5,549,32"/>
+<area shape="rect" id="node4" href="$db/d8b/struct_node.html#a239621c6f62988c5d50d2c84892f5be9" title="Insert a value to the index position." alt="" coords="408,56,576,83"/>
 </map>

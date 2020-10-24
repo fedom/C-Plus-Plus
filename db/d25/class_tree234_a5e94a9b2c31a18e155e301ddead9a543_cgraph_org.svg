@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="main function implement the pre&#45;merge remove operation">
+<g id="a_node1"><a xlink:title="Main function implement the pre&#45;merge remove operation.">
 <polygon fill="#bfbfbf" stroke="black" points="0,-152.5 0,-171.5 137,-171.5 137,-152.5 0,-152.5"/>
 <text text-anchor="middle" x="68.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::RemovePreMerge</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../db/d25/class_tree234.html#a75fde49a2a57da1f234361181ea78183" target="_top" xlink:title="get the max item of the tree">
+<g id="a_node2"><a xlink:href="../../db/d25/class_tree234.html#a75fde49a2a57da1f234361181ea78183" target="_top" xlink:title="Get the max item of the tree.">
 <polygon fill="white" stroke="black" points="173,-456.5 173,-475.5 304,-475.5 304,-456.5 173,-456.5"/>
 <text text-anchor="middle" x="238.5" y="-463.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::GetTreeMaxItem</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../db/d25/class_tree234.html#a66c20ef9cefbe058bdfc3e49180ef77d" target="_top" xlink:title="get the min item of the tree">
+<g id="a_node5"><a xlink:href="../../db/d25/class_tree234.html#a66c20ef9cefbe058bdfc3e49180ef77d" target="_top" xlink:title="Get the min item of the tree.">
 <polygon fill="white" stroke="black" points="174.5,-380.5 174.5,-399.5 302.5,-399.5 302.5,-380.5 174.5,-380.5"/>
 <text text-anchor="middle" x="238.5" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::GetTreeMinItem</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c" target="_top" xlink:title="check if node is a 2&#45;node">
+<g id="a_node8"><a xlink:href="../../db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c" target="_top" xlink:title="Check if node is a 2&#45;node.">
 <polygon fill="white" stroke="black" points="363,-152.5 363,-171.5 446,-171.5 446,-152.5 363,-152.5"/>
 <text text-anchor="middle" x="404.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::Is2Node</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../db/d8b/struct_node.html#ae4c28fa9b7efdb560563104fcb9dfb45" target="_top" xlink:title="check if node is a 3&#45;node or 4&#45;node, this is useful when we delete item from 2&#45;3&#45;4 tree">
+<g id="a_node9"><a xlink:href="../../db/d8b/struct_node.html#ae4c28fa9b7efdb560563104fcb9dfb45" target="_top" xlink:title="Check if node is a 3&#45;node or 4&#45;node, this is useful when we delete item from 2&#45;3&#45;4 tree.">
 <polygon fill="white" stroke="black" points="194.5,-0.5 194.5,-19.5 282.5,-19.5 282.5,-0.5 194.5,-0.5"/>
 <text text-anchor="middle" x="238.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::Is34Node</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="../../db/d25/class_tree234.html#ab3733ff7bf637266d77820a49d4999bc" target="_top" xlink:title="do the actual left rotate operation">
+<g id="a_node10"><a xlink:href="../../db/d25/class_tree234.html#ab3733ff7bf637266d77820a49d4999bc" target="_top" xlink:title="Do the actual left rotate operation.">
 <polygon fill="white" stroke="black" points="352.5,-114.5 352.5,-133.5 456.5,-133.5 456.5,-114.5 352.5,-114.5"/>
 <text text-anchor="middle" x="404.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::LeftRotate</text>
 </a>
@@ -96,7 +96,7 @@
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="../../db/d25/class_tree234.html#ae3ff8c703d85c4c5d0abd13c08c72151" target="_top" xlink:title="merge the item at index of the parent node, and its left and right child">
+<g id="a_node11"><a xlink:href="../../db/d25/class_tree234.html#ae3ff8c703d85c4c5d0abd13c08c72151" target="_top" xlink:title="Merge the item at index of the parent node, and its left and right child.">
 <polygon fill="white" stroke="black" points="196,-228.5 196,-247.5 281,-247.5 281,-228.5 196,-228.5"/>
 <text text-anchor="middle" x="238.5" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::Merge</text>
 </a>
@@ -111,7 +111,7 @@
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:href="../../db/d25/class_tree234.html#a59494707db877098d0ffb770437d6a10" target="_top" xlink:title="do the actual right rotate operation">
+<g id="a_node17"><a xlink:href="../../db/d25/class_tree234.html#a59494707db877098d0ffb770437d6a10" target="_top" xlink:title="Do the actual right rotate operation.">
 <polygon fill="white" stroke="black" points="349.5,-57.5 349.5,-76.5 459.5,-76.5 459.5,-57.5 349.5,-57.5"/>
 <text text-anchor="middle" x="404.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::RightRotate</text>
 </a>
@@ -126,7 +126,7 @@
 <!-- Node18 -->
 <g id="node18" class="node">
 <title>Node18</title>
-<g id="a_node18"><a xlink:href="../../db/d25/class_tree234.html#ad5b21cf04d1fab3d088ac00582c521c7" target="_top" xlink:title="a handy function to try if we can do a left rotate to the target node">
+<g id="a_node18"><a xlink:href="../../db/d25/class_tree234.html#ad5b21cf04d1fab3d088ac00582c521c7" target="_top" xlink:title="A handy function to try if we can do a left rotate to the target node.">
 <polygon fill="white" stroke="black" points="179.5,-152.5 179.5,-171.5 297.5,-171.5 297.5,-152.5 179.5,-152.5"/>
 <text text-anchor="middle" x="238.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::TryLeftRotate</text>
 </a>
@@ -141,7 +141,7 @@
 <!-- Node19 -->
 <g id="node19" class="node">
 <title>Node19</title>
-<g id="a_node19"><a xlink:href="../../db/d25/class_tree234.html#added89278e7bb87417a73918682a985e" target="_top" xlink:title="a handy function to try if we can do a right rotate to the target node">
+<g id="a_node19"><a xlink:href="../../db/d25/class_tree234.html#added89278e7bb87417a73918682a985e" target="_top" xlink:title="A handy function to try if we can do a right rotate to the target node.">
 <polygon fill="white" stroke="black" points="176,-76.5 176,-95.5 301,-95.5 301,-76.5 176,-76.5"/>
 <text text-anchor="middle" x="238.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::TryRightRotate</text>
 </a>
@@ -156,7 +156,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../db/d8b/struct_node.html#a9b1b0f38e06f2be2f3287f737882d422" target="_top" xlink:title="get max item (rightmost) in the current node">
+<g id="a_node3"><a xlink:href="../../db/d8b/struct_node.html#a9b1b0f38e06f2be2f3287f737882d422" target="_top" xlink:title="Get max item (rightmost) in the current node.">
 <polygon fill="white" stroke="black" points="354.5,-494.5 354.5,-513.5 454.5,-513.5 454.5,-494.5 354.5,-494.5"/>
 <text text-anchor="middle" x="404.5" y="-501.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::GetMaxItem</text>
 </a>
@@ -171,7 +171,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../db/d8b/struct_node.html#a1e2c6a52b704f81caced187e5dc7735e" target="_top" xlink:title="get rightmose child of the current node">
+<g id="a_node4"><a xlink:href="../../db/d8b/struct_node.html#a1e2c6a52b704f81caced187e5dc7735e" target="_top" xlink:title="Get rightmose child of the current node.">
 <polygon fill="white" stroke="black" points="340,-456.5 340,-475.5 469,-475.5 469,-456.5 340,-456.5"/>
 <text text-anchor="middle" x="404.5" y="-463.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::GetRightmostChild</text>
 </a>
@@ -186,7 +186,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../db/d8b/struct_node.html#aa1b7794370f98b1e5b5b8190ea7d7b67" target="_top" xlink:title="get leftmose child of the current node">
+<g id="a_node6"><a xlink:href="../../db/d8b/struct_node.html#aa1b7794370f98b1e5b5b8190ea7d7b67" target="_top" xlink:title="Get leftmose child of the current node.">
 <polygon fill="white" stroke="black" points="343.5,-418.5 343.5,-437.5 465.5,-437.5 465.5,-418.5 343.5,-418.5"/>
 <text text-anchor="middle" x="404.5" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::GetLeftmostChild</text>
 </a>
@@ -222,7 +222,7 @@
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="../../db/d8b/struct_node.html#aec3cbfe34973f0752071599afe34939b" target="_top" xlink:title="get the child pointer at position of index">
+<g id="a_node12"><a xlink:href="../../db/d8b/struct_node.html#aec3cbfe34973f0752071599afe34939b" target="_top" xlink:title="Get the child pointer at position of index.">
 <polygon fill="white" stroke="black" points="362.5,-304.5 362.5,-323.5 446.5,-323.5 446.5,-304.5 362.5,-304.5"/>
 <text text-anchor="middle" x="404.5" y="-311.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::GetChild</text>
 </a>
@@ -237,7 +237,7 @@
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="../../db/d8b/struct_node.html#a711e6d7e2c0318df0842e0caad4cad05" target="_top" xlink:title="get item of the \index index">
+<g id="a_node13"><a xlink:href="../../db/d8b/struct_node.html#a711e6d7e2c0318df0842e0caad4cad05" target="_top" xlink:title="Get item of the \index index.">
 <polygon fill="white" stroke="black" points="364,-266.5 364,-285.5 445,-285.5 445,-266.5 364,-266.5"/>
 <text text-anchor="middle" x="404.5" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::GetItem</text>
 </a>
@@ -252,7 +252,7 @@
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="../../db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c" target="_top" xlink:title="set child pointer to the position of index">
+<g id="a_node14"><a xlink:href="../../db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c" target="_top" xlink:title="Set child pointer to the position of index.">
 <polygon fill="white" stroke="black" points="363,-228.5 363,-247.5 446,-247.5 446,-228.5 363,-228.5"/>
 <text text-anchor="middle" x="404.5" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::SetChild</text>
 </a>
@@ -267,7 +267,7 @@
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="../../db/d8b/struct_node.html#ab5fbabd89ce8e89ccaa9e7371bc37a3d" target="_top" xlink:title="set the item count of the node">
+<g id="a_node15"><a xlink:href="../../db/d8b/struct_node.html#ab5fbabd89ce8e89ccaa9e7371bc37a3d" target="_top" xlink:title="Set the item count of the node.">
 <polygon fill="white" stroke="black" points="361,-190.5 361,-209.5 448,-209.5 448,-190.5 361,-190.5"/>
 <text text-anchor="middle" x="404.5" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::SetCount</text>
 </a>
@@ -282,7 +282,7 @@
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="../../db/d8b/struct_node.html#a2850fd257fe00ea2e1539325db18947c" target="_top" xlink:title="set item value at position of index">
+<g id="a_node16"><a xlink:href="../../db/d8b/struct_node.html#a2850fd257fe00ea2e1539325db18947c" target="_top" xlink:title="Set item value at position of index.">
 <polygon fill="white" stroke="black" points="364.5,-342.5 364.5,-361.5 444.5,-361.5 444.5,-342.5 364.5,-342.5"/>
 <text text-anchor="middle" x="404.5" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::SetItem</text>
 </a>
