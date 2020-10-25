@@ -103,6 +103,7 @@ $(document).ready(function(){initNavTree('db/dbc/tree__234_8cpp.html','../../');
 <div class="textblock"><code>#include &lt;array&gt;</code><br />
 <code>#include &lt;cassert&gt;</code><br />
 <code>#include &lt;cstdio&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;queue&gt;</code><br />
@@ -110,7 +111,7 @@ $(document).ready(function(){initNavTree('db/dbc/tree__234_8cpp.html','../../');
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for tree_234.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dc8/tree__234_8cpp__incl.svg" width="584" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dc8/tree__234_8cpp__incl.svg" width="100%" height="395"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -129,9 +130,8 @@ Functions</h2></td></tr>
 static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbc/tree__234_8cpp.html#ae7880ce913f3058a35ff106d5be9e243">test1</a> ()</td></tr>
 <tr class="memdesc:ae7880ce913f3058a35ff106d5be9e243"><td class="mdescLeft">&#160;</td><td class="mdescRight">simple test to insert a given array and delete some item, and print the tree <br /></td></tr>
 <tr class="separator:ae7880ce913f3058a35ff106d5be9e243"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17f2432fe0c646afae476ddc405c38e3"><td class="memItemLeft" align="right" valign="top"><a id="a17f2432fe0c646afae476ddc405c38e3"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbc/tree__234_8cpp.html#a17f2432fe0c646afae476ddc405c38e3">test2</a> (int n)</td></tr>
-<tr class="memdesc:a17f2432fe0c646afae476ddc405c38e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">simple test to insert continuous number of range [0, n), and print the tree <br /></td></tr>
+<tr class="memitem:a17f2432fe0c646afae476ddc405c38e3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbc/tree__234_8cpp.html#a17f2432fe0c646afae476ddc405c38e3">test2</a> (int n)</td></tr>
+<tr class="memdesc:a17f2432fe0c646afae476ddc405c38e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">simple test to insert continuous number of range [0, n), and print the tree  <a href="../../db/dbc/tree__234_8cpp.html#a17f2432fe0c646afae476ddc405c38e3">More...</a><br /></td></tr>
 <tr class="separator:a17f2432fe0c646afae476ddc405c38e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbc/tree__234_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
 <tr class="memdesc:a0ddf1224851353fc92bfbff6f499fa97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main function.  <a href="../../db/dbc/tree__234_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">More...</a><br /></td></tr>
@@ -176,15 +176,15 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 on exit </dd></dl>
-<div class="fragment"><div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;                                 {</div>
-<div class="line"><a name="l01114"></a><span class="lineno"> 1114</span>&#160;    <span class="keywordflow">if</span> (argc &lt; 2) {</div>
-<div class="line"><a name="l01115"></a><span class="lineno"> 1115</span>&#160;        <a class="code" href="../../db/dbc/tree__234_8cpp.html#ae7880ce913f3058a35ff106d5be9e243">test1</a>();  <span class="comment">// execute 1st test</span></div>
-<div class="line"><a name="l01116"></a><span class="lineno"> 1116</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l01117"></a><span class="lineno"> 1117</span>&#160;        <a class="code" href="../../db/dbc/tree__234_8cpp.html#a17f2432fe0c646afae476ddc405c38e3">test2</a>(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/stol.html">std::stoi</a>(argv[1]));  <span class="comment">// execute 2nd test</span></div>
-<div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;    }</div>
-<div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160; </div>
-<div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l01270"></a><span class="lineno"> 1270</span>&#160;                                 {</div>
+<div class="line"><a name="l01271"></a><span class="lineno"> 1271</span>&#160;    <span class="keywordflow">if</span> (argc &lt; 2) {</div>
+<div class="line"><a name="l01272"></a><span class="lineno"> 1272</span>&#160;        <a class="code" href="../../db/dbc/tree__234_8cpp.html#ae7880ce913f3058a35ff106d5be9e243">test1</a>();  <span class="comment">// execute 1st test</span></div>
+<div class="line"><a name="l01273"></a><span class="lineno"> 1273</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l01274"></a><span class="lineno"> 1274</span>&#160;        <a class="code" href="../../db/dbc/tree__234_8cpp.html#a17f2432fe0c646afae476ddc405c38e3">test2</a>(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/stol.html">std::stoi</a>(argv[1]));  <span class="comment">// execute 2nd test</span></div>
+<div class="line"><a name="l01275"></a><span class="lineno"> 1275</span>&#160;    }</div>
+<div class="line"><a name="l01276"></a><span class="lineno"> 1276</span>&#160; </div>
+<div class="line"><a name="l01277"></a><span class="lineno"> 1277</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l01278"></a><span class="lineno"> 1278</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -194,11 +194,66 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a17f2432fe0c646afae476ddc405c38e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17f2432fe0c646afae476ddc405c38e3">&#9670;&nbsp;</a></span>test2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void test2 </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>simple test to insert continuous number of range [0, n), and print the tree </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>upper bound of the range number to insert </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l01253"></a><span class="lineno"> 1253</span>&#160;                         {</div>
+<div class="line"><a name="l01254"></a><span class="lineno"> 1254</span>&#160;    <a class="code" href="../../db/d25/class_tree234.html">Tree234</a> tree;</div>
+<div class="line"><a name="l01255"></a><span class="lineno"> 1255</span>&#160; </div>
+<div class="line"><a name="l01256"></a><span class="lineno"> 1256</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; n; i++) {</div>
+<div class="line"><a name="l01257"></a><span class="lineno"> 1257</span>&#160;        tree.<a class="code" href="../../db/d25/class_tree234.html#ae690b22acc3e9db55b4a2b458c3da8c8">Insert</a>(i);</div>
+<div class="line"><a name="l01258"></a><span class="lineno"> 1258</span>&#160;    }</div>
+<div class="line"><a name="l01259"></a><span class="lineno"> 1259</span>&#160; </div>
+<div class="line"><a name="l01260"></a><span class="lineno"> 1260</span>&#160;    tree.<a class="code" href="../../db/d25/class_tree234.html#a521cc63186122762f279c4cfb8b93fd9">Traverse</a>();</div>
+<div class="line"><a name="l01261"></a><span class="lineno"> 1261</span>&#160;    tree.<a class="code" href="../../db/d25/class_tree234.html#a848886421f306be0afb116d91a41995b">Print</a>((<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string</a>(n) + <span class="stringliteral">&quot;.dot&quot;</span>).c_str());</div>
+<div class="line"><a name="l01262"></a><span class="lineno"> 1262</span>&#160;}</div>
+</div><!-- fragment --><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/dbc/tree__234_8cpp_a17f2432fe0c646afae476ddc405c38e3_cgraph.svg" width="100%" height="556"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="atree__234_8cpp_html_ae7880ce913f3058a35ff106d5be9e243"><div class="ttname"><a href="../../db/dbc/tree__234_8cpp.html#ae7880ce913f3058a35ff106d5be9e243">test1</a></div><div class="ttdeci">static void test1()</div><div class="ttdoc">simple test to insert a given array and delete some item, and print the tree</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:1081</div></div>
+<div class="ttc" id="aclass_tree234_html_ae690b22acc3e9db55b4a2b458c3da8c8"><div class="ttname"><a href="../../db/d25/class_tree234.html#ae690b22acc3e9db55b4a2b458c3da8c8">Tree234::Insert</a></div><div class="ttdeci">void Insert(int item)</div><div class="ttdoc">Insert item to tree.</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:635</div></div>
+<div class="ttc" id="aclass_tree234_html"><div class="ttname"><a href="../../db/d25/class_tree234.html">Tree234</a></div><div class="ttdoc">2-3-4 tree class</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:306</div></div>
+<div class="ttc" id="atree__234_8cpp_html_ae7880ce913f3058a35ff106d5be9e243"><div class="ttname"><a href="../../db/dbc/tree__234_8cpp.html#ae7880ce913f3058a35ff106d5be9e243">test1</a></div><div class="ttdeci">static void test1()</div><div class="ttdoc">simple test to insert a given array and delete some item, and print the tree</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:1235</div></div>
 <div class="ttc" id="astol_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string/stol.html">std::stoi</a></div><div class="ttdeci">T stoi(T... args)</div></div>
-<div class="ttc" id="atree__234_8cpp_html_a17f2432fe0c646afae476ddc405c38e3"><div class="ttname"><a href="../../db/dbc/tree__234_8cpp.html#a17f2432fe0c646afae476ddc405c38e3">test2</a></div><div class="ttdeci">static void test2(int n)</div><div class="ttdoc">simple test to insert continuous number of range [0, n), and print the tree</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:1096</div></div>
+<div class="ttc" id="ato_string_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string</a></div><div class="ttdeci">T to_string(T... args)</div></div>
+<div class="ttc" id="aclass_tree234_html_a848886421f306be0afb116d91a41995b"><div class="ttname"><a href="../../db/d25/class_tree234.html#a848886421f306be0afb116d91a41995b">Tree234::Print</a></div><div class="ttdeci">void Print(const char *file_name=nullptr)</div><div class="ttdoc">Print tree into a dot file.</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:1111</div></div>
+<div class="ttc" id="atree__234_8cpp_html_a17f2432fe0c646afae476ddc405c38e3"><div class="ttname"><a href="../../db/dbc/tree__234_8cpp.html#a17f2432fe0c646afae476ddc405c38e3">test2</a></div><div class="ttdeci">static void test2(int n)</div><div class="ttdoc">simple test to insert continuous number of range [0, n), and print the tree</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:1253</div></div>
+<div class="ttc" id="aclass_tree234_html_a521cc63186122762f279c4cfb8b93fd9"><div class="ttname"><a href="../../db/d25/class_tree234.html#a521cc63186122762f279c4cfb8b93fd9">Tree234::Traverse</a></div><div class="ttdeci">void Traverse()</div><div class="ttdoc">In-order traverse.</div><div class="ttdef"><b>Definition:</b> tree_234.cpp:540</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

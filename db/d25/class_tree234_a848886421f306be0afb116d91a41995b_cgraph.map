@@ -1,4 +1,7 @@
 <map id="Tree234::Print" name="Tree234::Print">
-<area shape="rect" id="node1" title="Print tree into a dot file, so we can easily check the result. if file_name is nullptr default is &quot;ou..." alt="" coords="5,5,109,32"/>
-<area shape="rect" id="node2" href="$db/d25/class_tree234.html#abf8ef706486c6d55c7bf0b85f8b19148" title="Print the tree to a dot file. You can convert it to picture with graphviz." alt="" coords="157,5,292,32"/>
+<area shape="rect" id="node1" title="Print tree into a dot file." alt="" coords="5,81,109,108"/>
+<area shape="rect" id="node2" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/io/basic_ofstream/close.html#" title=" " alt="" coords="157,5,296,32"/>
+<area shape="rect" id="node3" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/io/manip/endl.html#" title=" " alt="" coords="191,56,263,83"/>
+<area shape="rect" id="node4" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/io/basic_ofstream/open.html#" title=" " alt="" coords="159,107,294,133"/>
+<area shape="rect" id="node5" href="$db/d25/class_tree234.html#a89191f3c89f83cc5ef865d315156bea0" title="Print the tree to a dot file. You can convert it to picture with graphviz." alt="" coords="159,157,294,184"/>
 </map>
