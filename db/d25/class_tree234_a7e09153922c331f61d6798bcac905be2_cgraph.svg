@@ -67,7 +67,7 @@ var sectionId = 'dynsection-9';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../db/d8b/struct_node.html#aec3cbfe34973f0752071599afe34939b" target="_top" xlink:title="Get the child pointer at position of index.">
+<g id="a_node2"><a xlink:href="../../db/d8b/struct_node.html#aed57badf844a6298f225260fea386668" target="_top" xlink:title="Get the child pointer at position of index.">
 <polygon fill="white" stroke="black" points="172,-190.5 172,-209.5 256,-209.5 256,-190.5 172,-190.5"/>
 <text text-anchor="middle" x="214" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::GetChild</text>
 </a>
@@ -82,7 +82,7 @@ var sectionId = 'dynsection-9';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../db/d8b/struct_node.html#a711e6d7e2c0318df0842e0caad4cad05" target="_top" xlink:title="Get item of the \index index.">
+<g id="a_node3"><a xlink:href="../../db/d8b/struct_node.html#a399c5d3bc71d5d145c1ae2aa22b2e867" target="_top" xlink:title="Get item of the \index index.">
 <polygon fill="white" stroke="black" points="173.5,-152.5 173.5,-171.5 254.5,-171.5 254.5,-152.5 173.5,-152.5"/>
 <text text-anchor="middle" x="214" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::GetItem</text>
 </a>
@@ -163,7 +163,7 @@ var sectionId = 'dynsection-9';
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c" target="_top" xlink:title="Set child pointer to the position of index.">
+<g id="a_node9"><a xlink:href="../../db/d8b/struct_node.html#aee5fda5fc04b45a6b287aae043a6c3c9" target="_top" xlink:title="Set child pointer to the position of index.">
 <polygon fill="white" stroke="black" points="323.5,-0.5 323.5,-19.5 406.5,-19.5 406.5,-0.5 323.5,-0.5"/>
 <text text-anchor="middle" x="365" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::SetChild</text>
 </a>
@@ -184,7 +184,7 @@ var sectionId = 'dynsection-9';
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../db/d8b/struct_node.html#a13b876e390596e7fef1f914be83c9168" target="_top" xlink:title="Check if item is in the node.">
+<g id="a_node7"><a xlink:href="../../db/d8b/struct_node.html#ad7920ac641adfec1510768d5504db1a6" target="_top" xlink:title="Check if item is in the node.">
 <polygon fill="white" stroke="black" points="466.5,-38.5 466.5,-57.5 551.5,-57.5 551.5,-38.5 466.5,-38.5"/>
 <text text-anchor="middle" x="509" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::Contains</text>
 </a>
@@ -199,7 +199,7 @@ var sectionId = 'dynsection-9';
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../db/d8b/struct_node.html#a239621c6f62988c5d50d2c84892f5be9" target="_top" xlink:title="Insert a value to the index position.">
+<g id="a_node8"><a xlink:href="../../db/d8b/struct_node.html#a08fe20a013c96ec8a12b70b1399f24ed" target="_top" xlink:title="Insert a value to the index position.">
 <polygon fill="white" stroke="black" points="446,-0.5 446,-19.5 572,-19.5 572,-0.5 446,-0.5"/>
 <text text-anchor="middle" x="509" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::InsertItemByIndex</text>
 </a>

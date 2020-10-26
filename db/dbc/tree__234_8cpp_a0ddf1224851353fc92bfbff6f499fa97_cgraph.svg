@@ -97,7 +97,7 @@ var sectionId = 'dynsection-1';
 <!-- Node38 -->
 <g id="node38" class="node">
 <title>Node38</title>
-<g id="a_node38"><a xlink:href="../../db/dbc/tree__234_8cpp.html#a17f2432fe0c646afae476ddc405c38e3" target="_top" xlink:title="simple test to insert continuous number of range [0, n), and print the tree">
+<g id="a_node38"><a xlink:href="../../db/dbc/tree__234_8cpp.html#af1ac73779b0fcfbbdce3976c0ca57342" target="_top" xlink:title="simple test to insert continuous number of range [0, n), and print the tree">
 <polygon fill="white" stroke="black" points="81,-76.5 81,-95.5 119,-95.5 119,-76.5 81,-76.5"/>
 <text text-anchor="middle" x="100" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">test2</text>
 </a>
@@ -112,7 +112,7 @@ var sectionId = 'dynsection-1';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../db/d25/class_tree234.html#ae690b22acc3e9db55b4a2b458c3da8c8" target="_top" xlink:title="Insert item to tree.">
+<g id="a_node4"><a xlink:href="../../db/d25/class_tree234.html#ae32268e51da1bd5062c411deb34c4647" target="_top" xlink:title="Insert item to tree.">
 <polygon fill="white" stroke="black" points="168.5,-114.5 168.5,-133.5 251.5,-133.5 251.5,-114.5 168.5,-114.5"/>
 <text text-anchor="middle" x="210" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::Insert</text>
 </a>
@@ -142,7 +142,7 @@ var sectionId = 'dynsection-1';
 <!-- Node19 -->
 <g id="node19" class="node">
 <title>Node19</title>
-<g id="a_node19"><a xlink:href="../../db/d25/class_tree234.html#a1c2ff15bed6674f58e075665e9027b8c" target="_top" xlink:title="Remove item from tree.">
+<g id="a_node19"><a xlink:href="../../db/d25/class_tree234.html#a378ca16620b26129358433d6eb32c32a" target="_top" xlink:title="Remove item from tree.">
 <polygon fill="white" stroke="black" points="162.5,-294.5 162.5,-313.5 257.5,-313.5 257.5,-294.5 162.5,-294.5"/>
 <text text-anchor="middle" x="210" y="-301.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::Remove</text>
 </a>
@@ -157,7 +157,7 @@ var sectionId = 'dynsection-1';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../db/d25/class_tree234.html#a69f55fc18c820aafebbb3e7b0448b551" target="_top" xlink:title="A insert implementation of pre&#45;split.">
+<g id="a_node5"><a xlink:href="../../db/d25/class_tree234.html#a5ac0ec7f8b4e42b9afea294670f758cd" target="_top" xlink:title="A insert implementation of pre&#45;split.">
 <polygon fill="white" stroke="black" points="304,-152.5 304,-171.5 421,-171.5 421,-152.5 304,-152.5"/>
 <text text-anchor="middle" x="362.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::InsertPreSplit</text>
 </a>
@@ -247,7 +247,7 @@ var sectionId = 'dynsection-1';
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="../../db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c" target="_top" xlink:title="Set child pointer to the position of index.">
+<g id="a_node12"><a xlink:href="../../db/d8b/struct_node.html#aee5fda5fc04b45a6b287aae043a6c3c9" target="_top" xlink:title="Set child pointer to the position of index.">
 <polygon fill="white" stroke="black" points="666,-152.5 666,-171.5 749,-171.5 749,-152.5 666,-152.5"/>
 <text text-anchor="middle" x="707.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::SetChild</text>
 </a>
@@ -262,7 +262,7 @@ var sectionId = 'dynsection-1';
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../db/d8b/struct_node.html#a13b876e390596e7fef1f914be83c9168" target="_top" xlink:title="Check if item is in the node.">
+<g id="a_node9"><a xlink:href="../../db/d8b/struct_node.html#ad7920ac641adfec1510768d5504db1a6" target="_top" xlink:title="Check if item is in the node.">
 <polygon fill="white" stroke="black" points="828.5,-114.5 828.5,-133.5 913.5,-133.5 913.5,-114.5 828.5,-114.5"/>
 <text text-anchor="middle" x="871" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::Contains</text>
 </a>
@@ -277,7 +277,7 @@ var sectionId = 'dynsection-1';
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="../../db/d8b/struct_node.html#a239621c6f62988c5d50d2c84892f5be9" target="_top" xlink:title="Insert a value to the index position.">
+<g id="a_node10"><a xlink:href="../../db/d8b/struct_node.html#a08fe20a013c96ec8a12b70b1399f24ed" target="_top" xlink:title="Insert a value to the index position.">
 <polygon fill="white" stroke="black" points="808,-152.5 808,-171.5 934,-171.5 934,-152.5 808,-152.5"/>
 <text text-anchor="middle" x="871" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::InsertItemByIndex</text>
 </a>
@@ -343,7 +343,7 @@ var sectionId = 'dynsection-1';
 <!-- Node18 -->
 <g id="node18" class="node">
 <title>Node18</title>
-<g id="a_node18"><a xlink:href="../../db/d25/class_tree234.html#a89191f3c89f83cc5ef865d315156bea0" target="_top" xlink:title="Print the tree to a dot file. You can convert it to picture with graphviz.">
+<g id="a_node18"><a xlink:href="../../db/d25/class_tree234.html#a5398ff0e74e4319ea71eea7872689d2f" target="_top" xlink:title="Print the tree to a dot file. You can convert it to picture with graphviz.">
 <polygon fill="white" stroke="black" points="312,-76.5 312,-95.5 413,-95.5 413,-76.5 312,-76.5"/>
 <text text-anchor="middle" x="362.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::PrintNode</text>
 </a>
@@ -358,7 +358,7 @@ var sectionId = 'dynsection-1';
 <!-- Node20 -->
 <g id="node20" class="node">
 <title>Node20</title>
-<g id="a_node20"><a xlink:href="../../db/d25/class_tree234.html#a5e94a9b2c31a18e155e301ddead9a543" target="_top" xlink:title="Main function implement the pre&#45;merge remove operation.">
+<g id="a_node20"><a xlink:href="../../db/d25/class_tree234.html#ab61a60251b0d4f9321af0deadc8c28e9" target="_top" xlink:title="Main function implement the pre&#45;merge remove operation.">
 <polygon fill="white" stroke="black" points="294,-437.5 294,-456.5 431,-456.5 431,-437.5 294,-437.5"/>
 <text text-anchor="middle" x="362.5" y="-444.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::RemovePreMerge</text>
 </a>
@@ -373,7 +373,7 @@ var sectionId = 'dynsection-1';
 <!-- Node21 -->
 <g id="node21" class="node">
 <title>Node21</title>
-<g id="a_node21"><a xlink:href="../../db/d25/class_tree234.html#a75fde49a2a57da1f234361181ea78183" target="_top" xlink:title="Get the max item of the tree.">
+<g id="a_node21"><a xlink:href="../../db/d25/class_tree234.html#a492463a958fde9f3a37af6df1d055cfb" target="_top" xlink:title="Get the max item of the tree.">
 <polygon fill="white" stroke="black" points="471.5,-418.5 471.5,-437.5 602.5,-437.5 602.5,-418.5 471.5,-418.5"/>
 <text text-anchor="middle" x="537" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::GetTreeMaxItem</text>
 </a>
@@ -388,7 +388,7 @@ var sectionId = 'dynsection-1';
 <!-- Node24 -->
 <g id="node24" class="node">
 <title>Node24</title>
-<g id="a_node24"><a xlink:href="../../db/d25/class_tree234.html#a66c20ef9cefbe058bdfc3e49180ef77d" target="_top" xlink:title="Get the min item of the tree.">
+<g id="a_node24"><a xlink:href="../../db/d25/class_tree234.html#ac02ba698251ff9197379ec8b25a65400" target="_top" xlink:title="Get the min item of the tree.">
 <polygon fill="white" stroke="black" points="473,-342.5 473,-361.5 601,-361.5 601,-342.5 473,-342.5"/>
 <text text-anchor="middle" x="537" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::GetTreeMinItem</text>
 </a>
@@ -433,7 +433,7 @@ var sectionId = 'dynsection-1';
 <!-- Node29 -->
 <g id="node29" class="node">
 <title>Node29</title>
-<g id="a_node29"><a xlink:href="../../db/d25/class_tree234.html#ab3733ff7bf637266d77820a49d4999bc" target="_top" xlink:title="Do the actual left rotate operation.">
+<g id="a_node29"><a xlink:href="../../db/d25/class_tree234.html#abcb0f7a77296f85797e713e1a2d49802" target="_top" xlink:title="Do the actual left rotate operation.">
 <polygon fill="white" stroke="black" points="655.5,-589.5 655.5,-608.5 759.5,-608.5 759.5,-589.5 655.5,-589.5"/>
 <text text-anchor="middle" x="707.5" y="-596.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::LeftRotate</text>
 </a>
@@ -448,7 +448,7 @@ var sectionId = 'dynsection-1';
 <!-- Node30 -->
 <g id="node30" class="node">
 <title>Node30</title>
-<g id="a_node30"><a xlink:href="../../db/d25/class_tree234.html#ae3ff8c703d85c4c5d0abd13c08c72151" target="_top" xlink:title="Merge the item at index of the parent node, and its left and right child.">
+<g id="a_node30"><a xlink:href="../../db/d25/class_tree234.html#aa39a25b399b1b076ba19974b0c83e442" target="_top" xlink:title="Merge the item at index of the parent node, and its left and right child.">
 <polygon fill="white" stroke="black" points="494.5,-266.5 494.5,-285.5 579.5,-285.5 579.5,-266.5 494.5,-266.5"/>
 <text text-anchor="middle" x="537" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::Merge</text>
 </a>
@@ -463,7 +463,7 @@ var sectionId = 'dynsection-1';
 <!-- Node35 -->
 <g id="node35" class="node">
 <title>Node35</title>
-<g id="a_node35"><a xlink:href="../../db/d25/class_tree234.html#a59494707db877098d0ffb770437d6a10" target="_top" xlink:title="Do the actual right rotate operation.">
+<g id="a_node35"><a xlink:href="../../db/d25/class_tree234.html#af34ba346c5c5ec3a9e0e3ac802be852b" target="_top" xlink:title="Do the actual right rotate operation.">
 <polygon fill="white" stroke="black" points="652.5,-494.5 652.5,-513.5 762.5,-513.5 762.5,-494.5 652.5,-494.5"/>
 <text text-anchor="middle" x="707.5" y="-501.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::RightRotate</text>
 </a>
@@ -508,7 +508,7 @@ var sectionId = 'dynsection-1';
 <!-- Node22 -->
 <g id="node22" class="node">
 <title>Node22</title>
-<g id="a_node22"><a xlink:href="../../db/d8b/struct_node.html#a9b1b0f38e06f2be2f3287f737882d422" target="_top" xlink:title="Get max item (rightmost) in the current node.">
+<g id="a_node22"><a xlink:href="../../db/d8b/struct_node.html#a537cc97f69363f7842378319ee578ec0" target="_top" xlink:title="Get max item (rightmost) in the current node.">
 <polygon fill="white" stroke="black" points="657.5,-456.5 657.5,-475.5 757.5,-475.5 757.5,-456.5 657.5,-456.5"/>
 <text text-anchor="middle" x="707.5" y="-463.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::GetMaxItem</text>
 </a>
@@ -553,7 +553,7 @@ var sectionId = 'dynsection-1';
 <!-- Node26 -->
 <g id="node26" class="node">
 <title>Node26</title>
-<g id="a_node26"><a xlink:href="../../db/d8b/struct_node.html#a3cbce1931da13d8db8f1d350ae841db5" target="_top" xlink:title="get min item (leftmost) in the current node">
+<g id="a_node26"><a xlink:href="../../db/d8b/struct_node.html#adcf78c7578b226d12b587d4109076ff2" target="_top" xlink:title="get min item (leftmost) in the current node">
 <polygon fill="white" stroke="black" points="659,-342.5 659,-361.5 756,-361.5 756,-342.5 659,-342.5"/>
 <text text-anchor="middle" x="707.5" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::GetMinItem</text>
 </a>
@@ -580,7 +580,7 @@ var sectionId = 'dynsection-1';
 <!-- Node31 -->
 <g id="node31" class="node">
 <title>Node31</title>
-<g id="a_node31"><a xlink:href="../../db/d8b/struct_node.html#aec3cbfe34973f0752071599afe34939b" target="_top" xlink:title="Get the child pointer at position of index.">
+<g id="a_node31"><a xlink:href="../../db/d8b/struct_node.html#aed57badf844a6298f225260fea386668" target="_top" xlink:title="Get the child pointer at position of index.">
 <polygon fill="white" stroke="black" points="665.5,-190.5 665.5,-209.5 749.5,-209.5 749.5,-190.5 665.5,-190.5"/>
 <text text-anchor="middle" x="707.5" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::GetChild</text>
 </a>
@@ -595,7 +595,7 @@ var sectionId = 'dynsection-1';
 <!-- Node32 -->
 <g id="node32" class="node">
 <title>Node32</title>
-<g id="a_node32"><a xlink:href="../../db/d8b/struct_node.html#a711e6d7e2c0318df0842e0caad4cad05" target="_top" xlink:title="Get item of the \index index.">
+<g id="a_node32"><a xlink:href="../../db/d8b/struct_node.html#a399c5d3bc71d5d145c1ae2aa22b2e867" target="_top" xlink:title="Get item of the \index index.">
 <polygon fill="white" stroke="black" points="667,-304.5 667,-323.5 748,-323.5 748,-304.5 667,-304.5"/>
 <text text-anchor="middle" x="707.5" y="-311.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::GetItem</text>
 </a>
@@ -610,7 +610,7 @@ var sectionId = 'dynsection-1';
 <!-- Node33 -->
 <g id="node33" class="node">
 <title>Node33</title>
-<g id="a_node33"><a xlink:href="../../db/d8b/struct_node.html#ab5fbabd89ce8e89ccaa9e7371bc37a3d" target="_top" xlink:title="Set the item count of the node.">
+<g id="a_node33"><a xlink:href="../../db/d8b/struct_node.html#ab6d9a1d7ffd4b6215dd2ab16cf97f961" target="_top" xlink:title="Set the item count of the node.">
 <polygon fill="white" stroke="black" points="664,-266.5 664,-285.5 751,-285.5 751,-266.5 664,-266.5"/>
 <text text-anchor="middle" x="707.5" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::SetCount</text>
 </a>
@@ -625,7 +625,7 @@ var sectionId = 'dynsection-1';
 <!-- Node34 -->
 <g id="node34" class="node">
 <title>Node34</title>
-<g id="a_node34"><a xlink:href="../../db/d8b/struct_node.html#a2850fd257fe00ea2e1539325db18947c" target="_top" xlink:title="Set item value at position of index.">
+<g id="a_node34"><a xlink:href="../../db/d8b/struct_node.html#a9c73d3ba2950ed22259602b3ed0cc667" target="_top" xlink:title="Set item value at position of index.">
 <polygon fill="white" stroke="black" points="667.5,-228.5 667.5,-247.5 747.5,-247.5 747.5,-228.5 667.5,-228.5"/>
 <text text-anchor="middle" x="707.5" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node::SetItem</text>
 </a>

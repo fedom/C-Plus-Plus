@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../db/d25/class_tree234.html#ab3733ff7bf637266d77820a49d4999bc" target="_top" xlink:title="Do the actual left rotate operation.">
+<g id="a_node3"><a xlink:href="../../db/d25/class_tree234.html#abcb0f7a77296f85797e713e1a2d49802" target="_top" xlink:title="Do the actual left rotate operation.">
 <polygon fill="white" stroke="black" points="154,-0.5 154,-19.5 258,-19.5 258,-0.5 154,-0.5"/>
 <text text-anchor="middle" x="206" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tree234::LeftRotate</text>
 </a>

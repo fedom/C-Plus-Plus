@@ -1,0 +1,22 @@
+<map id="Tree234::Remove" name="Tree234::Remove">
+<area shape="rect" id="node1" title="Remove item from tree." alt="" coords="5,461,132,488"/>
+<area shape="rect" id="node2" href="$db/d25/class_tree234.html#ab61a60251b0d4f9321af0deadc8c28e9" title="Main function implement the pre&#45;merge remove operation." alt="" coords="180,461,363,488"/>
+<area shape="rect" id="node3" href="$db/d25/class_tree234.html#a492463a958fde9f3a37af6df1d055cfb" title="Get the max item of the tree." alt="" coords="411,56,585,83"/>
+<area shape="rect" id="node6" href="$db/d25/class_tree234.html#ac02ba698251ff9197379ec8b25a65400" title="Get the min item of the tree." alt="" coords="413,157,583,184"/>
+<area shape="rect" id="node9" href="$db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c" title="Check if node is a 2&#45;node." alt="" coords="664,461,775,488"/>
+<area shape="rect" id="node10" href="$db/d8b/struct_node.html#ae4c28fa9b7efdb560563104fcb9dfb45" title="Check if node is a 3&#45;node or 4&#45;node, this is useful when we delete item from 2&#45;3&#45;4 tree." alt="" coords="439,664,557,691"/>
+<area shape="rect" id="node11" href="$db/d25/class_tree234.html#abcb0f7a77296f85797e713e1a2d49802" title="Do the actual left rotate operation." alt="" coords="650,512,789,539"/>
+<area shape="rect" id="node12" href="$db/d25/class_tree234.html#aa39a25b399b1b076ba19974b0c83e442" title="Merge the item at index of the parent node, and its left and right child." alt="" coords="441,360,555,387"/>
+<area shape="rect" id="node18" href="$db/d25/class_tree234.html#af34ba346c5c5ec3a9e0e3ac802be852b" title="Do the actual right rotate operation." alt="" coords="646,588,793,615"/>
+<area shape="rect" id="node19" href="$db/d25/class_tree234.html#ad5b21cf04d1fab3d088ac00582c521c7" title="A handy function to try if we can do a left rotate to the target node." alt="" coords="419,461,577,488"/>
+<area shape="rect" id="node20" href="$db/d25/class_tree234.html#added89278e7bb87417a73918682a985e" title="A handy function to try if we can do a right rotate to the target node." alt="" coords="415,563,581,589"/>
+<area shape="rect" id="node4" href="$db/d8b/struct_node.html#a537cc97f69363f7842378319ee578ec0" title="Get max item (rightmost) in the current node." alt="" coords="653,5,786,32"/>
+<area shape="rect" id="node5" href="$db/d8b/struct_node.html#a1e2c6a52b704f81caced187e5dc7735e" title="Get rightmose child of the current node." alt="" coords="633,56,805,83"/>
+<area shape="rect" id="node7" href="$db/d8b/struct_node.html#aa1b7794370f98b1e5b5b8190ea7d7b67" title="Get leftmose child of the current node." alt="" coords="638,107,801,133"/>
+<area shape="rect" id="node8" href="$db/d8b/struct_node.html#adcf78c7578b226d12b587d4109076ff2" title="get min item (leftmost) in the current node" alt="" coords="655,157,784,184"/>
+<area shape="rect" id="node13" href="$db/d8b/struct_node.html#aed57badf844a6298f225260fea386668" title="Get the child pointer at position of index." alt="" coords="663,259,775,285"/>
+<area shape="rect" id="node14" href="$db/d8b/struct_node.html#a399c5d3bc71d5d145c1ae2aa22b2e867" title="Get item of the \index index." alt="" coords="665,309,773,336"/>
+<area shape="rect" id="node15" href="$db/d8b/struct_node.html#aee5fda5fc04b45a6b287aae043a6c3c9" title="Set child pointer to the position of index." alt="" coords="664,360,775,387"/>
+<area shape="rect" id="node16" href="$db/d8b/struct_node.html#ab6d9a1d7ffd4b6215dd2ab16cf97f961" title="Set the item count of the node." alt="" coords="661,411,777,437"/>
+<area shape="rect" id="node17" href="$db/d8b/struct_node.html#a9c73d3ba2950ed22259602b3ed0cc667" title="Set item value at position of index." alt="" coords="666,208,773,235"/>
+</map>

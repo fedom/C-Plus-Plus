@@ -1,5 +1,0 @@
-<map id="Tree234::GetTreeMinItem" name="Tree234::GetTreeMinItem">
-<area shape="rect" id="node1" title="Get the min item of the tree." alt="" coords="5,31,176,57"/>
-<area shape="rect" id="node2" href="$db/d8b/struct_node.html#aa1b7794370f98b1e5b5b8190ea7d7b67" title="Get leftmose child of the current node." alt="" coords="224,5,387,32"/>
-<area shape="rect" id="node3" href="$db/d8b/struct_node.html#a3cbce1931da13d8db8f1d350ae841db5" title="get min item (leftmost) in the current node" alt="" coords="241,56,370,83"/>
-</map>

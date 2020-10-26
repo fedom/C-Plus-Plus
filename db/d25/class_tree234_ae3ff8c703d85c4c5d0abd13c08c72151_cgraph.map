@@ -1,9 +1,0 @@
-<map id="Tree234::Merge" name="Tree234::Merge">
-<area shape="rect" id="node1" title="Merge the item at index of the parent node, and its left and right child." alt="" coords="5,132,119,159"/>
-<area shape="rect" id="node2" href="$db/d8b/struct_node.html#aec3cbfe34973f0752071599afe34939b" title="Get the child pointer at position of index." alt="" coords="169,5,281,32"/>
-<area shape="rect" id="node3" href="$db/d8b/struct_node.html#a711e6d7e2c0318df0842e0caad4cad05" title="Get item of the \index index." alt="" coords="171,56,279,83"/>
-<area shape="rect" id="node4" href="$db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c" title="Check if node is a 2&#45;node." alt="" coords="169,107,280,133"/>
-<area shape="rect" id="node5" href="$db/d8b/struct_node.html#a40a68c94b39a93cfbcfbf3c9a34a110c" title="Set child pointer to the position of index." alt="" coords="169,157,280,184"/>
-<area shape="rect" id="node6" href="$db/d8b/struct_node.html#ab5fbabd89ce8e89ccaa9e7371bc37a3d" title="Set the item count of the node." alt="" coords="167,208,283,235"/>
-<area shape="rect" id="node7" href="$db/d8b/struct_node.html#a2850fd257fe00ea2e1539325db18947c" title="Set item value at position of index." alt="" coords="171,259,278,285"/>
-</map>

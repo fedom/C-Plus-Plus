@@ -64,7 +64,7 @@ var searchData=
   ['arr_69',['arr',['../d0/d3e/classdata__structures_1_1trie.html#a362dd78748a1f01ab019e55fd6098a8b',1,'data_structures::trie']]],
   ['array_70',['array',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
   ['array_3c_20float_2c_2020_20_3e_71',['array&lt; float, 20 &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
-  ['array_3c_20int_2c_203_20_3e_72',['array&lt; int, 3 &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
+  ['array_3c_20int64_5ft_2c_203_20_3e_72',['array&lt; int64_t, 3 &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
   ['array_3c_20node_20_2a_2c_204_20_3e_73',['array&lt; Node *, 4 &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
   ['asctime_74',['asctime',['http://en.cppreference.com/w/cpp/chrono/c/asctime.html',0,'std']]],
   ['asin_75',['asin',['http://en.cppreference.com/w/cpp/numeric/math/asin.html',0,'std']]],

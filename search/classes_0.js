@@ -16,7 +16,7 @@ var searchData=
   ['allocator_5ftraits_2240',['allocator_traits',['http://en.cppreference.com/w/cpp/memory/allocator_traits.html',0,'std']]],
   ['array_2241',['array',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
   ['array_3c_20float_2c_2020_20_3e_2242',['array&lt; float, 20 &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
-  ['array_3c_20int_2c_203_20_3e_2243',['array&lt; int, 3 &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
+  ['array_3c_20int64_5ft_2c_203_20_3e_2243',['array&lt; int64_t, 3 &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
   ['array_3c_20node_20_2a_2c_204_20_3e_2244',['array&lt; Node *, 4 &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
   ['atomic_2245',['atomic',['http://en.cppreference.com/w/cpp/atomic/atomic.html',0,'std']]],
   ['atomic_5fflag_2246',['atomic_flag',['http://en.cppreference.com/w/cpp/atomic/atomic_flag.html',0,'std']]],

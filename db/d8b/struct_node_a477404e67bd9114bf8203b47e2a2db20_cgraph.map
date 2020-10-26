@@ -1,6 +1,6 @@
 <map id="Node::InsertItem" name="Node::InsertItem">
 <area shape="rect" id="node1" title="Insert item to the proper position of the node and return the position index." alt="" coords="5,56,125,83"/>
-<area shape="rect" id="node2" href="$db/d8b/struct_node.html#a13b876e390596e7fef1f914be83c9168" title="Check if item is in the node." alt="" coords="201,5,314,32"/>
-<area shape="rect" id="node3" href="$db/d8b/struct_node.html#a239621c6f62988c5d50d2c84892f5be9" title="Insert a value to the index position." alt="" coords="173,56,341,83"/>
+<area shape="rect" id="node2" href="$db/d8b/struct_node.html#ad7920ac641adfec1510768d5504db1a6" title="Check if item is in the node." alt="" coords="201,5,314,32"/>
+<area shape="rect" id="node3" href="$db/d8b/struct_node.html#a08fe20a013c96ec8a12b70b1399f24ed" title="Insert a value to the index position." alt="" coords="173,56,341,83"/>
 <area shape="rect" id="node4" href="$db/d8b/struct_node.html#a5cb5234ccefa82c8cc49842898131cb6" title="Check if node is a full (4&#45;node)" alt="" coords="211,107,304,133"/>
 </map>

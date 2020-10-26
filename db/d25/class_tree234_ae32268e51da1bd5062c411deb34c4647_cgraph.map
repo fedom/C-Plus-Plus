@@ -1,0 +1,12 @@
+<map id="Tree234::Insert" name="Tree234::Insert">
+<area shape="rect" id="node1" title="Insert item to tree." alt="" coords="5,107,116,133"/>
+<area shape="rect" id="node2" href="$db/d25/class_tree234.html#a5ac0ec7f8b4e42b9afea294670f758cd" title="A insert implementation of pre&#45;split." alt="" coords="164,107,320,133"/>
+<area shape="rect" id="node3" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/memory/unique_ptr/get.html#" title=" " alt="" coords="394,56,529,83"/>
+<area shape="rect" id="node4" href="$db/d25/class_tree234.html#a5ceb8cd694a3edb6e70ed3dd54ee4521" title="Merge node to a not&#45;full target node." alt="" coords="368,107,555,133"/>
+<area shape="rect" id="node10" href="$db/d25/class_tree234.html#ae36a2684ad2d5cea087cbb5c7d94e96c" title="Split a 4&#45;node to 1 parent and 2 children, and return the parent node." alt="" coords="394,157,529,184"/>
+<area shape="rect" id="node5" href="$db/d8b/struct_node.html#a477404e67bd9114bf8203b47e2a2db20" title="Insert item to the proper position of the node and return the position index." alt="" coords="603,56,723,83"/>
+<area shape="rect" id="node8" href="$db/d8b/struct_node.html#a5cb5234ccefa82c8cc49842898131cb6" title="Check if node is a full (4&#45;node)" alt="" coords="808,107,901,133"/>
+<area shape="rect" id="node9" href="$db/d8b/struct_node.html#aee5fda5fc04b45a6b287aae043a6c3c9" title="Set child pointer to the position of index." alt="" coords="607,157,718,184"/>
+<area shape="rect" id="node6" href="$db/d8b/struct_node.html#ad7920ac641adfec1510768d5504db1a6" title="Check if item is in the node." alt="" coords="798,5,911,32"/>
+<area shape="rect" id="node7" href="$db/d8b/struct_node.html#a08fe20a013c96ec8a12b70b1399f24ed" title="Insert a value to the index position." alt="" coords="771,56,939,83"/>
+</map>
