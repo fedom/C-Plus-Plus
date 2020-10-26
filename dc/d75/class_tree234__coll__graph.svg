@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../db/d8b/struct_node.html" target="_top" xlink:title="2&#45;3&#45;4 tree node class">
+<g id="a_node2"><a xlink:href="../../db/d8b/struct_node.html" target="_top" xlink:title="for std::to_string">
 <polygon fill="white" stroke="black" points="54,-67.5 54,-86.5 94,-86.5 94,-67.5 54,-67.5"/>
 <text text-anchor="middle" x="74" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node</text>
 </a>
