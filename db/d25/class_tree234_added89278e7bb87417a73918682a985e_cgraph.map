@@ -1,5 +1,0 @@
-<map id="Tree234::TryRightRotate" name="Tree234::TryRightRotate">
-<area shape="rect" id="node1" title="A handy function to try if we can do a right rotate to the target node." alt="" coords="5,31,172,57"/>
-<area shape="rect" id="node2" href="$db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c" title="Check if node is a 2&#45;node." alt="" coords="238,5,349,32"/>
-<area shape="rect" id="node3" href="$db/d25/class_tree234.html#af34ba346c5c5ec3a9e0e3ac802be852b" title="Do the actual right rotate operation." alt="" coords="220,56,367,83"/>
-</map>

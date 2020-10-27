@@ -1,5 +1,0 @@
-<map id="Tree234::TryLeftRotate" name="Tree234::TryLeftRotate">
-<area shape="rect" id="node1" title="A handy function to try if we can do a left rotate to the target node." alt="" coords="5,31,163,57"/>
-<area shape="rect" id="node2" href="$db/d8b/struct_node.html#a6e5f4f2091b10b1821b655fde157a74c" title="Check if node is a 2&#45;node." alt="" coords="225,5,335,32"/>
-<area shape="rect" id="node3" href="$db/d25/class_tree234.html#abcb0f7a77296f85797e713e1a2d49802" title="Do the actual left rotate operation." alt="" coords="211,56,349,83"/>
-</map>

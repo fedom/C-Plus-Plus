@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['capacity_4628',['capacity',['../d2/d05/class_min_heap.html#a88b4aa3e66392a3eabbf2517a9a79a02',1,'MinHeap']]],
-  ['children_4629',['children',['../db/d8b/struct_node.html#a80f28a1806b0d1f4d7d0d3f56009a23a',1,'Node']]],
-  ['count_4630',['count',['../db/d8b/struct_node.html#ab36927fc1c51571f13d585b039861045',1,'Node']]]
+  ['capacity_4630',['capacity',['../d2/d05/class_min_heap.html#a88b4aa3e66392a3eabbf2517a9a79a02',1,'MinHeap']]],
+  ['children_4631',['children',['../dd/d40/classdata__structures_1_1tree__234_1_1_node.html#ad5d6b6ce5fab21ccc88c6bf3153eee5d',1,'data_structures::tree_234::Node']]],
+  ['count_4632',['count',['../dd/d40/classdata__structures_1_1tree__234_1_1_node.html#a934e6d53cfefae2b971e1241a8a4c921',1,'data_structures::tree_234::Node']]]
 ];

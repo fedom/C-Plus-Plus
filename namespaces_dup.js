@@ -42,6 +42,7 @@ var namespaces_dup =
     [ "strand", "d8/d1d/namespacestrand.html", null ],
     [ "string_search", "d9/d03/namespacestring__search.html", null ],
     [ "strings", "df/dcb/namespacestrings.html", null ],
+    [ "tree_234", "d6/dab/namespacetree__234.html", null ],
     [ "util_functions", "d3/d17/namespaceutil__functions.html", null ],
     [ "vigenere", "d6/da2/namespacevigenere.html", null ],
     [ "word_break", "d6/d53/namespaceword__break.html", null ],
