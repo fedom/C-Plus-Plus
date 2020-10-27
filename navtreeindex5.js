@@ -1,13 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"db/df3/happy__number_8cpp.html":[10,0,12,5],
-"db/df3/happy__number_8cpp.html#a00ccdb1166a7c83ac3c33ac67a2532b7":[10,0,12,5,0],
-"db/df3/happy__number_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,12,5,1],
-"dc/d1a/pascal__triangle_8cpp.html":[10,0,12,9],
-"dc/d1a/pascal__triangle_8cpp.html#ad7a31d9cb2818d21b1ba12aead7f4c5c":[10,0,12,9,2],
-"dc/d1a/pascal__triangle_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,12,9,0],
-"dc/d1a/pascal__triangle_8cpp.html#afd3f52dd56ddedbf7af5d26a202a199e":[10,0,12,9,1],
-"dc/d38/ordinary__least__squares__regressor_8cpp.html":[10,0,9,4],
 "dc/d38/ordinary__least__squares__regressor_8cpp.html#a30acf52af3184bc22274234ef5a73536":[10,0,9,4,12],
 "dc/d38/ordinary__least__squares__regressor_8cpp.html#a31be3fe36e76b87d5616ff8e7918cd24":[10,0,9,4,11],
 "dc/d38/ordinary__least__squares__regressor_8cpp.html#a38ff1d954e9b7de93eb20e2dd101a045":[10,0,9,4,0],
@@ -171,8 +163,8 @@ var NAVTREEINDEX5 =
 "dd/d65/lu__decompose_8cpp.html#a1440a7779ac56f47a3f355ce4a8c7da0":[10,0,11,6,2],
 "dd/d65/lu__decompose_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[10,0,11,6,0],
 "dd/d65/lu__decompose_8cpp.html#a9459fcd1f020373d73eae2bad43786d0":[10,0,11,6,1],
-"dd/d69/namespacerange__queries.html":[8,0,30],
 "dd/d69/namespacerange__queries.html":[9,0,9],
+"dd/d69/namespacerange__queries.html":[8,0,30],
 "dd/d81/namespacecaesar.html":[8,0,2],
 "dd/d91/class_fenwick_tree.html":[9,0,18],
 "dd/d91/class_fenwick_tree.html#a115ff5c548b429b737ea09f75817d1f9":[9,0,18,4],
@@ -249,5 +241,13 @@ var NAVTREEINDEX5 =
 "de/d9d/classdata__structures_1_1linked__list_1_1link.html#a28781355a468a1b95278ffe6277f3b6c":[9,0,1,0,0,1],
 "de/d9d/classdata__structures_1_1linked__list_1_1link.html#aba4672fbc40c38962d1510b843a577bb":[9,0,1,0,0,0],
 "de/d9d/classdata__structures_1_1linked__list_1_1link.html#ac121ce37b6ea864b160ebcada0bce936":[9,0,1,0,0,4],
-"de/d9d/classdata__structures_1_1linked__list_1_1link.html#acf96f3a9a1d3b15268c38e8822300c11":[9,0,1,0,0,2]
+"de/d9d/classdata__structures_1_1linked__list_1_1link.html#acf96f3a9a1d3b15268c38e8822300c11":[9,0,1,0,0,2],
+"de/d9d/classdata__structures_1_1linked__list_1_1link.html#af94c06f3220e5406245680f58b8e7081":[9,0,1,0,0,3],
+"de/dc3/binaryheap_8cpp.html":[10,0,2,3],
+"de/dc3/binaryheap_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,2,3,1],
+"de/dcf/binary__exponent_8cpp.html":[10,0,10,1],
+"de/dcf/binary__exponent_8cpp.html#a31dbf5f7ceb9c9eec831ef9f7782291f":[10,0,10,1,1],
+"de/dcf/binary__exponent_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,10,1,2],
+"de/dcf/binary__exponent_8cpp.html#aeb48dce0725e63d19147944f41843c73":[10,0,10,1,0],
+"de/dd3/newton__raphson__method_8cpp.html":[10,0,11,8]
 };

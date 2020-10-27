@@ -1,13 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"d7/d35/matrix__exponentiation_8cpp.html#a9977ad12548c4a49dee9dc3f0685aa54":[10,0,12,6,10],
-"d7/d35/matrix__exponentiation_8cpp.html#ac62a499b83c7895dd0aa69da1b64c904":[10,0,12,6,6],
-"d7/d35/matrix__exponentiation_8cpp.html#aca7d5718ab8c38506adb3bef2469b319":[10,0,12,6,2],
-"d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa":[10,0,12,6,4],
-"d7/d35/matrix__exponentiation_8cpp.html#ae1d1ec9482079231e898236e2b23c9ba":[10,0,12,6,1],
-"d7/d35/matrix__exponentiation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,12,6,5],
-"d7/d47/namespace_x_o_r.html":[8,0,46],
-"d7/d65/shortest__common__supersequence_8cpp.html":[10,0,3,3],
 "d7/d65/shortest__common__supersequence_8cpp.html#aa8dca7b867074164d5f45b0f3851269d":[10,0,3,3,2],
 "d7/d65/shortest__common__supersequence_8cpp.html#ad2ee8d7e67da9f6eb85146b08dad95e6":[10,0,3,3,1],
 "d7/d65/shortest__common__supersequence_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,3,3,0],
@@ -249,5 +241,13 @@ var NAVTREEINDEX3 =
 "d9/d66/group__machine__learning.html#ga72699c805c19a6cc47a937a6f3378afa":[10,0,9,2,5],
 "d9/d66/group__machine__learning.html#ga72699c805c19a6cc47a937a6f3378afa":[7,1,7],
 "d9/d66/group__machine__learning.html#gab53c14440b2b2dd3172c66afc5c2f63f":[10,0,9,1,3],
-"d9/d66/group__machine__learning.html#gab53c14440b2b2dd3172c66afc5c2f63f":[7,1,5]
+"d9/d66/group__machine__learning.html#gab53c14440b2b2dd3172c66afc5c2f63f":[7,1,5],
+"d9/d66/group__machine__learning.html#gaf5ce14f026d6d231bef29161bac2b485":[10,0,9,1,1],
+"d9/d66/group__machine__learning.html#gaf5ce14f026d6d231bef29161bac2b485":[10,0,9,2,1],
+"d9/d66/group__machine__learning.html#gaf5ce14f026d6d231bef29161bac2b485":[7,1,4],
+"d9/d69/median__search_8cpp.html":[10,0,15,8],
+"d9/d69/median__search_8cpp.html#a868847218f694e78bf433a0ff7648bae":[10,0,15,8,1],
+"d9/d69/median__search_8cpp.html#ae1a3968e7947464bee7714f6d43b7002":[10,0,15,8,2],
+"d9/d69/median__search_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,15,8,0],
+"d9/d89/fibonacci_8cpp.html":[10,0,10,11]
 };

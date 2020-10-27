@@ -1,13 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"d5/d3c/namespacedata__structures.html":[9,0,1],
-"d5/d3c/namespacedata__structures.html":[8,0,5],
-"d5/d4c/group__sorting.html":[7,3],
-"d5/d4c/group__sorting.html#ga0a9a57a1f1bbba3d4822531d002b7e07":[7,3,5],
-"d5/d4c/group__sorting.html#ga0a9a57a1f1bbba3d4822531d002b7e07":[10,0,16,7,3],
-"d5/d4c/group__sorting.html#ga29d28b140174dbdde7c9f5157758435f":[7,3,1],
-"d5/d4c/group__sorting.html#ga29d28b140174dbdde7c9f5157758435f":[10,0,16,4,1],
-"d5/d4c/group__sorting.html#ga460c61cd948203b4816bef2accb3fc73":[7,3,3],
 "d5/d4c/group__sorting.html#ga460c61cd948203b4816bef2accb3fc73":[10,0,16,7,1],
 "d5/d4c/group__sorting.html#gab6b14fea48d9841e29b9fc26be6e05d7":[7,3,4],
 "d5/d4c/group__sorting.html#gab6b14fea48d9841e29b9fc26be6e05d7":[10,0,16,7,2],
@@ -249,5 +241,13 @@ var NAVTREEINDEX2 =
 "d7/d35/matrix__exponentiation_8cpp.html#a276c5a0e984cf60015b27252fe04fe6b":[10,0,12,6,3],
 "d7/d35/matrix__exponentiation_8cpp.html#a35b7c98af53ad2ec18658679ad7d43de":[10,0,12,6,8],
 "d7/d35/matrix__exponentiation_8cpp.html#a5769b745458157ef2679949155684f3b":[10,0,12,6,7],
-"d7/d35/matrix__exponentiation_8cpp.html#a600eaf353befc174637855795f12d258":[10,0,12,6,0]
+"d7/d35/matrix__exponentiation_8cpp.html#a600eaf353befc174637855795f12d258":[10,0,12,6,0],
+"d7/d35/matrix__exponentiation_8cpp.html#a9977ad12548c4a49dee9dc3f0685aa54":[10,0,12,6,10],
+"d7/d35/matrix__exponentiation_8cpp.html#ac62a499b83c7895dd0aa69da1b64c904":[10,0,12,6,6],
+"d7/d35/matrix__exponentiation_8cpp.html#aca7d5718ab8c38506adb3bef2469b319":[10,0,12,6,2],
+"d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa":[10,0,12,6,4],
+"d7/d35/matrix__exponentiation_8cpp.html#ae1d1ec9482079231e898236e2b23c9ba":[10,0,12,6,1],
+"d7/d35/matrix__exponentiation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,12,6,5],
+"d7/d47/namespace_x_o_r.html":[8,0,46],
+"d7/d65/shortest__common__supersequence_8cpp.html":[10,0,3,3]
 };

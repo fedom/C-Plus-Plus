@@ -1,13 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"d3/d06/ode__semi__implicit__euler_8cpp.html#af3adf7b092a87868917ee5fb4255192b":[10,0,11,11,0],
-"d3/d17/namespaceutil__functions.html":[8,0,43],
-"d3/d19/sparse__matrix_8cpp.html":[10,0,12,13],
-"d3/d19/sparse__matrix_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,12,13,0],
-"d3/d24/qr__decomposition_8cpp.html":[10,0,11,13],
-"d3/d24/qr__decomposition_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe":[10,0,11,13,0],
-"d3/d26/binary__search__tree_8cpp.html":[10,0,2,2],
-"d3/d26/binary__search__tree_8cpp.html#a13dac1586cbb95ebfd63dc47aeeff0e1":[10,0,2,2,9],
 "d3/d26/binary__search__tree_8cpp.html#a1ca1e6aad9a9e45c1d21a7c8f61bccc3":[10,0,2,2,4],
 "d3/d26/binary__search__tree_8cpp.html#a4392f2f3d0680befc1a6db07d94d6c5d":[10,0,2,2,11],
 "d3/d26/binary__search__tree_8cpp.html#a4a1aaff44d949318d93231e1fa5c7863":[10,0,2,2,5],
@@ -249,5 +241,13 @@ var NAVTREEINDEX1 =
 "d5/d29/struct_min_heap_node.html#a6df054c3211ae8a8ec15a21e7d18343a":[9,0,26,4],
 "d5/d29/struct_min_heap_node.html#ad06549be842d9a2cacdb3e55b019e68c":[9,0,26,3],
 "d5/d2c/namespacelayers.html":[8,0,16],
-"d5/d39/namespaceactivations.html":[8,0,0]
+"d5/d39/namespaceactivations.html":[8,0,0],
+"d5/d3c/namespacedata__structures.html":[9,0,1],
+"d5/d3c/namespacedata__structures.html":[8,0,5],
+"d5/d4c/group__sorting.html":[7,3],
+"d5/d4c/group__sorting.html#ga0a9a57a1f1bbba3d4822531d002b7e07":[7,3,5],
+"d5/d4c/group__sorting.html#ga0a9a57a1f1bbba3d4822531d002b7e07":[10,0,16,7,3],
+"d5/d4c/group__sorting.html#ga29d28b140174dbdde7c9f5157758435f":[7,3,1],
+"d5/d4c/group__sorting.html#ga29d28b140174dbdde7c9f5157758435f":[10,0,16,4,1],
+"d5/d4c/group__sorting.html#ga460c61cd948203b4816bef2accb3fc73":[7,3,3]
 };
